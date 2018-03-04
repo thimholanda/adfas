@@ -1,0 +1,35 @@
+
+1. [2017-08-03 17:59:40 UTC]: 
+----------------------------------------------------------------------------------------------------
+pagseguro process_return POST DATA:<pre>Array
+(
+)
+</pre>
+
+1. [2017-08-03 17:59:40 UTC]: 
+----------------------------------------------------------------------------------------------------
+pagseguro process_return POST DATA:<pre>Array
+(
+)
+</pre>
+
+2. [2017-08-03 17:59:40 UTC]: 
+----------------------------------------------------------------------------------------------------
+pagseguro process_return GET DATA:<pre>Array
+(
+    [module] => mgm_pagseguro
+    [method] => payment_return
+    [tran_id] => FD811FE9-B24F-4FC9-9FE5-8AD351776C62
+)
+</pre>
+
+2. [2017-08-03 17:59:40 UTC]: 
+----------------------------------------------------------------------------------------------------
+pagseguro process_return GET DATA:<pre>Array
+(
+    [module] => mgm_pagseguro
+    [method] => payment_return
+    [tran_id] => FD811FE9-B24F-4FC9-9FE5-8AD351776C62
+)
+</pre>
+

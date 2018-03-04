@@ -1,0 +1,21 @@
+
+3. [2017-12-15 17:06:07 UTC]: 
+----------------------------------------------------------------------------------------------------
+notification_url: https://ws.pagseguro.uol.com.br/v2/transactions/notifications/E01170-DD6FB26FB204-5224C92FB210-61AA57/?email=contato@adfas.com.br&token=9F4D309279144124ADE2B1C98FE9A4AF
+
+4. [2017-12-15 17:06:08 UTC]: 
+----------------------------------------------------------------------------------------------------
+http_response: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><transaction><date>2017-12-01T14:59:00.000-02:00</date><code>DE717356-72CD-458E-B25D-BCBC731D3EE1</code><reference>80</reference><type>1</type><status>4</status><lastEventDate>2017-12-15T15:06:05.000-02:00</lastEventDate><paymentMethod><type>1</type><code>102</code></paymentMethod><grossAmount>298.80</grossAmount><discountAmount>0.00</discountAmount><feeAmount>15.31</feeAmount><netAmount>283.49</netAmount><extraAmount>0.00</extraAmount><escrowEndDate>2017-12-15T15:03:26.000-02:00</escrowEndDate><installmentCount>1</installmentCount><itemCount>1</itemCount><items><item><id>4</id><description>ADFAS :: Associação de Direito de Família e das Sucessões Associado -  PESSOA FÍSICA Inscriçã</description><quantity>1</quantity><amount>298.80</amount></item></items><sender><name>MARIA I M S BONINI MONTE S BONINI ADV</name><email>boninibel@gmail.com</email><phone><areaCode>19</areaCode><number>981267641</number></phone></sender><shipping><address><street>RUA IRMA SERAFINA 863 - EDIFICIO SAID JORGE</street><number>863</number><complement>sala 84</complement><district>Centro</district><city>CAMPINAS</city><state>SP</state><country>BRA</country><postalCode>13015914</postalCode></address><type>3</type><cost>0.00</cost></shipping></transaction>
+
+5. [2017-12-15 17:06:08 UTC]: 
+----------------------------------------------------------------------------------------------------
+PagSeguro IPN : processed :Array
+(
+    [code] => DE717356-72CD-458E-B25D-BCBC731D3EE1
+    [custom] => 80
+    [type] => 1
+    [status] => 4
+    [status_code] => Available
+)
+
+

@@ -1,0 +1,21 @@
+
+3. [2017-08-25 18:49:49 UTC]: 
+----------------------------------------------------------------------------------------------------
+notification_url: https://ws.pagseguro.uol.com.br/v2/transactions/notifications/8303E6-5C34643464A3-0CC4F88FB02B-B349D3/?email=contato@adfas.com.br&token=9F4D309279144124ADE2B1C98FE9A4AF
+
+4. [2017-08-25 18:49:51 UTC]: 
+----------------------------------------------------------------------------------------------------
+http_response: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><transaction><date>2017-08-25T15:47:52.000-03:00</date><code>9D3A4550-64AD-49D8-8170-EA5EA405895C</code><reference>54</reference><type>1</type><status>3</status><lastEventDate>2017-08-25T15:49:44.000-03:00</lastEventDate><paymentMethod><type>1</type><code>101</code></paymentMethod><grossAmount>30.00</grossAmount><discountAmount>0.00</discountAmount><feeAmount>1.90</feeAmount><netAmount>28.10</netAmount><extraAmount>0.00</extraAmount><escrowEndDate>2017-09-08T15:49:44.000-03:00</escrowEndDate><installmentCount>1</installmentCount><itemCount>1</itemCount><items><item><id>6</id><description>ADFAS :: Associação de Direito de Família e das Sucessões Associado -  PESSOA FÍSICA Inscriçã</description><quantity>1</quantity><amount>30.00</amount></item></items><sender><name>Viviane Schacker Militão</name><email>vivis.direito@hotmail.com</email><phone><areaCode>51</areaCode><number>96414365</number></phone></sender><shipping><address><street>RUA PEDRO JOSE ZANETTI</street><number>406</number><complement>609 Torre Berlim</complement><district>Igara</district><city>CANOAS</city><state>RS</state><country>BRA</country><postalCode>92410680</postalCode></address><type>3</type><cost>0.00</cost></shipping></transaction>
+
+5. [2017-08-25 18:49:51 UTC]: 
+----------------------------------------------------------------------------------------------------
+PagSeguro IPN : processed :Array
+(
+    [code] => 9D3A4550-64AD-49D8-8170-EA5EA405895C
+    [custom] => 54
+    [type] => 1
+    [status] => 3
+    [status_code] => Paid
+)
+
+

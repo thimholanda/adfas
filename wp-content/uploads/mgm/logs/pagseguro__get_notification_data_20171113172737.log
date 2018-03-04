@@ -1,0 +1,21 @@
+
+3. [2017-11-13 17:27:37 UTC]: 
+----------------------------------------------------------------------------------------------------
+notification_url: https://ws.pagseguro.uol.com.br/v2/transactions/notifications/A673AD-D7F98BF98B1B-33345D1FA064-D75BEA/?email=contato@adfas.com.br&token=9F4D309279144124ADE2B1C98FE9A4AF
+
+4. [2017-11-13 17:27:39 UTC]: 
+----------------------------------------------------------------------------------------------------
+http_response: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><transaction><date>2017-10-30T15:03:53.000-02:00</date><code>AD74438D-63CF-4D35-B83E-7C6F74F89AC4</code><reference>74</reference><type>1</type><status>4</status><lastEventDate>2017-11-13T15:27:09.000-02:00</lastEventDate><paymentMethod><type>1</type><code>102</code></paymentMethod><grossAmount>142.80</grossAmount><discountAmount>0.00</discountAmount><feeAmount>7.53</feeAmount><netAmount>135.27</netAmount><extraAmount>0.00</extraAmount><escrowEndDate>2017-11-13T15:24:39.000-02:00</escrowEndDate><installmentCount>1</installmentCount><itemCount>1</itemCount><items><item><id>3</id><description>ADFAS :: Associação de Direito de Família e das Sucessões Associado - ESTUDANTE Inscrição</description><quantity>1</quantity><amount>142.80</amount></item></items><sender><name>Alexandra F Luppi</name><email>alexandraluppi@gmail.com</email><phone><areaCode>11</areaCode><number>985506007</number></phone></sender><shipping><address><street>RUA MARIO FONGARO</street><number>677</number><complement>111</complement><district>Anchieta</district><city>SAO BERNARDO DO CAMPO</city><state>SP</state><country>BRA</country><postalCode>09732530</postalCode></address><type>3</type><cost>0.00</cost></shipping></transaction>
+
+5. [2017-11-13 17:27:39 UTC]: 
+----------------------------------------------------------------------------------------------------
+PagSeguro IPN : processed :Array
+(
+    [code] => AD74438D-63CF-4D35-B83E-7C6F74F89AC4
+    [custom] => 74
+    [type] => 1
+    [status] => 4
+    [status_code] => Available
+)
+
+

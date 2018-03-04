@@ -1,0 +1,608 @@
+/*
+
+Publisher
+    |-> Style Default
+        |-> Sport Demo
+
+
+*** TABLE OF CONTENTS:
+    =>Colors
+    =>General
+    =>Section and widget heading,  general
+    =>Listings
+    =>Headers
+    =>Archive Title
+    =>Single Templates
+    =>WooCommerce
+
+*/
+
+
+/**
+ * =>Colors
+ **/
+.main-bg-color,
+.btn,
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="button"],
+.btn:focus,
+.btn:hover,
+button:focus,
+button:hover,
+html input[type="button"]:focus,
+html input[type="button"]:hover,
+input[type="reset"]:focus,
+input[type="reset"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:hover,
+input[type="button"]:focus,
+input[type="button"]:hover,
+.main-menu.menu .sub-menu li.current-menu-item:hover > a:hover,
+.main-menu.menu .better-custom-badge,
+.widget.widget_nav_menu .menu .better-custom-badge,
+.responsive-header .menu-container .resp-menu .better-custom-badge,
+.bs-popular-categories .bs-popular-term-item:hover .term-count,
+.widget.widget_tag_cloud .tagcloud a:hover,
+span.dropcap.dropcap-square,
+span.dropcap.dropcap-circle,
+.bs-tab-shortcode .nav-tabs>li>a:focus,
+.bs-tab-shortcode .nav-tabs>li>a:hover,
+.bs-tab-shortcode .nav-tabs>li.active>a,
+.better-control-nav li a.better-active,
+.better-control-nav li:hover a,
+.main-menu.menu > li:hover > a:before,
+.main-menu.menu > li.current-menu-parent > a:before,
+.main-menu.menu > li.current-menu-item > a:before,
+.main-slider .better-control-nav li a.better-active,
+.main-slider .better-control-nav li:hover a,
+.site-footer.color-scheme-dark .footer-widgets .widget.widget_tag_cloud .tagcloud a:hover,
+.site-footer.color-scheme-dark .footer-widgets .widget.widget_nav_menu ul.menu li a:hover,
+.entry-terms.via a:hover,
+.entry-terms.source a:hover,
+.entry-terms.post-tags a:hover,
+.comment-respond #cancel-comment-reply-link,
+.better-newsticker .heading,
+.listing-item-text-1:hover .term-badges.floated .term-badge a,
+.term-badges.floated a,
+.archive-title .term-badges span.term-badge a:hover,
+.post-tp-1-header .term-badges a:hover,
+.archive-title .term-badges a:hover,
+.listing-item-tb-2:hover .term-badges.floated .term-badge a,
+.btn-bs-pagination:hover, .btn-bs-pagination.hover, .btn-bs-pagination.bs-pagination-in-loading,
+.bs-slider-dots .bs-slider-active > .bts-bs-dots-btn,
+.listing-item-classic:hover a.read-more,
+.bs-loading > div,
+.pagination.bs-links-pagination a:hover,
+.footer-widgets .bs-popular-categories .bs-popular-term-item:hover .term-count,
+.footer-widgets .widget .better-control-nav li a:hover,
+.footer-widgets .widget .better-control-nav li a.better-active,
+.bs-slider-2-item .content-container a.read-more,
+.bs-slider-3-item .content-container a.read-more,
+.main-menu.menu .sub-menu li.current-menu-item:hover > a,
+.main-menu.menu .sub-menu > li:hover > a,
+.bs-slider-2-item .term-badges.floated .term-badge a,
+.bs-slider-3-item .term-badges.floated .term-badge a,
+.listing-item-blog:hover a.read-more,
+.bsp-style-1 .bsp-playlist-info,
+.bsp-style-2 .bsp-current-item .bsp-video-icon-wrapper,
+.back-top,
+.site-header .shop-cart-container .cart-handler .cart-count,
+.site-header .shop-cart-container .cart-box:after,
+.single-attachment-content .return-to:hover .fa,
+.entry-terms.source .terms-label, .entry-terms.via .terms-label, .entry-terms.post-tags .terms-label{
+    background-color:#008625 !important;
+}
+.main-color,
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus,
+.widget.widget_nav_menu ul.menu li > a:hover,
+.widget.widget_nav_menu .menu .better-custom-badge,
+.widget.widget_recent_comments a:hover,
+.bs-popular-categories .bs-popular-term-item,
+.main-menu.menu .sub-menu li.current-menu-item > a,
+.bs-about .about-link a,
+.comment-list .comment-footer .comment-reply-link:hover,
+.comment-list li.bypostauthor > article > .comment-meta .comment-author a,
+.comment-list li.bypostauthor > article > .comment-meta .comment-author,
+.comment-list .comment-footer .comment-edit-link:hover,
+.comment-respond #cancel-comment-reply-link,
+span.dropcap.dropcap-square-outline,
+span.dropcap.dropcap-circle-outline,
+ul.bs-shortcode-list li:before,
+.bs-accordion-shortcode .panel.open .panel-heading a,
+.bs-accordion-shortcode .panel .panel-heading a:hover,
+a:hover,
+.post-meta a:hover,
+.site-header .top-menu.menu > li:hover > a,
+.site-header .top-menu.menu .sub-menu > li:hover > a,
+.mega-menu.mega-type-link-list .mega-links > li > a:hover,
+.mega-menu.mega-type-link-list .mega-links > li:hover > a,
+.listing-item .post-footer .post-share:hover .share-handler,
+.listing-item-classic .title a:hover,
+.single-post-content > .post-author .pre-head a:hover,
+.entry-content a,
+.site-header .search-container.open .search-handler,
+.site-header .search-container:hover .search-handler,
+.site-header .shop-cart-container.open .cart-handler,
+.site-header .shop-cart-container:hover .cart-handler,
+.site-footer .copy-2 a:hover,
+.site-footer .copy-1 a:hover,
+ul.menu.footer-menu li > a:hover,
+.responsive-header .menu-container .resp-menu li:hover > a,
+.listing-item-thumbnail:hover .title a,
+.listing-item-grid:hover .title a,
+.listing-item-blog:hover .title a,
+.listing-item-classic:hover .title a,
+.better-newsticker ul.news-list li a:hover,
+.better-newsticker .control-nav span:hover,
+.listing-item-text-1:hover .title a,
+.post-meta a:hover,
+.pagination.bs-numbered-pagination > span,
+.pagination.bs-numbered-pagination .wp-pagenavi a:hover,
+.pagination.bs-numbered-pagination .page-numbers:hover,
+.pagination.bs-numbered-pagination .wp-pagenavi .current,
+.pagination.bs-numbered-pagination .current,
+.listing-item-text-2:hover .title a,
+.section-heading a:hover,
+.bs-popular-categories .bs-popular-term-item:hover,
+.main-menu.menu > li:hover > a,
+.listing-mg-5-item:hover .title,
+.listing-item-tall:hover > .title{
+    color:#008625;
+}
+.footer-widgets .widget a:hover,
+.bs-listing-modern-grid-listing-5 .listing-mg-5-item:hover .title a:hover,
+.bs-listing-modern-grid-listing-5 .listing-mg-5-item:hover .title a{
+    color:#008625 !important;
+}
+textarea:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="color"]:focus,
+input[type="text"]:focus,
+.widget.widget_nav_menu .menu .better-custom-badge:after,
+.widget.widget_bs-theme-subscribe-newsletter .bs-subscribe-newsletter form .feedburner-email:focus,
+.better-gallery .fotorama__thumb-border,
+span.dropcap.dropcap-square-outline,
+span.dropcap.dropcap-circle-outline,
+.bs-tab-shortcode .nav.nav-tabs,
+.bs-tab-shortcode .tab-content .tab-pane,
+.bs-accordion-shortcode .panel.open .panel-heading+.panel-collapse>.panel-body,
+.bs-accordion-shortcode .panel.open,
+.comment-respond textarea:focus,
+.better-newsticker .control-nav span:hover,
+.archive-title .term-badges a:hover,
+.listing-item-text-2 .item-inner,
+.btn-bs-pagination:hover, .btn-bs-pagination.hover, .btn-bs-pagination.bs-pagination-in-loading,
+.bs-slider-2-item .content-container a.read-more,
+.bs-slider-3-item .content-container a.read-more,
+.pagination.bs-links-pagination a:hover,
+.bsp-style-1 li.bsp-current-item .bsp-video-thumbnail,
+.bsp-style-2 .bsp-current-item .bsp-video-thumbnail,
+.bs-subscribe-newsletter .feedburner-email:focus,
+body.active-top-line .main-wrap,
+.entry-content blockquote.bs-pullquote,
+.entry-terms.source .terms-label, .entry-terms.via .terms-label, .entry-terms.post-tags .terms-label{
+    border-color:#008625;
+}
+.main-menu.menu .better-custom-badge:after{
+    border-top-color:#008625;
+}
+.bsp-style-1 li.bsp-current-item .bsp-video-index::after{
+    border-left-color:#008625;
+}
+::selection{
+    background:#008625;
+}
+::-moz-selection{
+    background:#008625;
+}
+#bbpress-forums li.bbp-forum-info.single-forum-info .bbp-forum-title:before,
+#bbpress-forums .bbp-forums-list li:before,
+#bbpress-forums p.bbp-topic-meta .freshness_link a,
+#bbpress-forums .bbp-forums-list li a{
+    color:#008625;
+}
+#bbpress-forums #bbp-search-form #bbp_search_submit,
+#bbpress-forums li.bbp-header:before,
+#bbpress-forums button.user-submit, .bbp-submit-wrapper button,
+#bbpress-forums li.bbp-header:before{
+    background-color:#008625;
+}
+.better-gcs-result .gsc-result .gs-title:hover *,
+.better-gcs-result .gsc-result .gs-title:hover,
+.better-gcs-result .gsc-results .gsc-cursor-box .gsc-cursor-current-page,
+.better-gcs-result .gsc-results .gsc-cursor-box .gsc-cursor-page:hover{
+    color:#008625;
+}
+.rating-bar span,
+.betterstudio-review .verdict .overall{
+    background-color: #008625;
+}
+.rating-stars span:before {
+    color: #008625;
+}
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce span.onsale,
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button.added,
+.woocommerce a.button.loading,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range{
+    background-color: #008625 !important;
+}
+.woocommerce  .woocommerce-Reviews .star-rating,
+.woocommerce div.product p.price,
+.woocommerce div.product span.price,
+.woocommerce div.product .woocommerce-product-rating,
+.woocommerce ul.products li.product .price,
+.woocommerce-MyAccount-navigation ul li.is-active a,
+.woocommerce-MyAccount-navigation ul li a:hover{
+    color: #008625 !important;
+}
+.site-header .top-menu.menu > li > a,
+.topbar .better-newsticker ul.news-list li a,
+.topbar .better-newsticker .control-nav span{
+    color:#ffffff;
+}
+.site-header .top-menu.menu > li:hover > a,
+.site-header .top-menu.menu .sub-menu > li:hover > a,
+.topbar .better-newsticker ul.news-list li a{
+    color:#ffffff !important;
+}
+.site-header.full-width .topbar{
+    background-color:#008625;
+}
+.site-header.boxed .topbar .topbar-inner{
+    background-color:#008625; padding-left:15px; padding-right:15px;
+}
+.header-style-5 .bs-pinning-block.pinned .header-inner,
+.header-style-6 .bs-pinning-block.pinned .header-inner,
+.header-style-8 .bs-pinning-block.pinned .header-inner{
+    border-top:2px solid #008625;
+}
+.topbar .better-social-counter.style-button .social-item .item-icon{
+    color:#ffffff;
+}
+.topbar .better-social-counter.style-button .social-item:hover .item-icon{
+    color:#ffffff;
+}
+.site-header .shop-cart-container .cart-handler,
+.site-header .search-container .search-handler,
+.site-header .main-menu > li > a{
+    color:#434343;
+}
+ul.menu.footer-menu li > a:hover,
+.site-footer .copy-2 a:hover,
+.site-footer .copy-1 a:hover{
+    color:#ffffff;
+}
+.site-footer .copy-footer{
+    background-color:#006b1e;
+}
+.site-footer .footer-social-icons{
+    background-color:#ffffff;
+}
+.site-footer{
+    background-color:#006b1e;
+}
+.widget .widget-heading:after,
+.widget .widget-heading > .h-text{
+    background-color:#008625;
+}
+.section-heading.multi-tab .main-link.active .h-text,
+.section-heading.multi-tab .active > .h-text,
+.section-heading.multi-tab:after,
+.section-heading:after,
+.section-heading .h-text,
+.section-heading .other-link:hover .h-text,
+.section-heading.multi-tab .main-link:hover .h-text{
+    background-color:#008625;
+}
+.bs-pretty-tabs-container:hover .bs-pretty-tabs-more.other-link .h-text,
+.section-heading .bs-pretty-tabs-more.other-link:hover .h-text.h-text{
+    color:#008625;
+}
+
+
+/**
+ * =>General Styles
+ **/
+.term-badges.floated {
+    bottom: -10px;
+    left: 0;
+    top: initial;
+}
+.rtl .term-badges.floated {
+    right: 0;
+    left: auto;
+}
+.term-badges.floated a {
+    position: relative;
+    z-index: 1;
+}
+
+
+/**
+ * =>Section and widget heading,  general
+ **/
+.entry-content a.read-more,
+a.read-more,
+.widget-heading .h-text,
+.section-heading .h-text {
+    position: relative;
+    z-index: 1;
+}
+.entry-content a.read-more:before,
+a.read-more:before,
+.widget-heading .h-text:before,
+.section-heading .h-text:before{
+     content: '';
+     height: 50%;
+     position: absolute;
+     display: block;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background: rgba(0, 0, 0, 0.2);
+     z-index: -1;
+}
+.widget .widget-heading:after,
+.section-heading:after{
+    display: none !important;
+}
+.section-heading.multi-tab .main-link .h-text,
+.section-heading .other-link .h-text{
+    background-color: rgba(0, 0, 0, 0.12);
+}
+.section-heading .other-link .h-text,
+.section-heading .h-text,
+.section-heading.multi-tab .main-link .h-text{
+    border: none;
+}
+
+
+/**
+ * =>Listings
+ **/
+.bs-listing-modern-grid-listing-5{
+    margin-bottom: 15px;
+}
+.listing-mg-5-item-small .item-content:before {
+    padding-top: 64%;
+}
+.bs-slider-3-item .content-container a.read-more,
+.bs-slider-2-item .content-container a.read-more{
+    color: #fff;
+}
+.listing-item-classic-2 .listing-inner .term-badges.floated{
+    left: 20px;
+}
+.rtl .listing-item-classic-2 .listing-inner .term-badges.floated {
+    right: 20px;
+    left: auto;
+}
+.listing-item-blog-3 .term-badges{
+    left: 0;
+    top: 0;
+}
+.rtl .listing-item-blog-3 .term-badges {
+    right: 0;
+    left: auto;
+}
+.listing-item-blog-2 .term-badges{
+    left: 0;
+    top:10px;
+}
+.rtl .listing-item-blog-2 .term-badges {
+    right: 0;
+    left: auto;
+}
+.listing-item-blog-1 .term-badges{
+    bottom: initial;
+    right: -3px;
+    left: initial;
+    top: 0;
+}
+.rtl .listing-item-blog-1 .term-badges {
+    left: -3px;
+    right: initial;
+}
+.listing-modern-grid-5 .term-badges.floated{
+    top: 15px;
+}
+.better-newsticker .heading{
+    z-index: 1;
+}
+.better-newsticker .heading:before,
+.term-badges.floated a:before {
+    content: '';
+    position: absolute;
+    height: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+}
+.rtl .better-newsticker .heading:before,
+.rtl .term-badges.floated a:before {
+    right: 0;
+    left: 0;
+}
+.listing-item-tb-2 .term-badges.floated {
+    left: 0;
+}
+.rtl .listing-item-tb-2 .term-badges.floated {
+    right: 0;
+    left: auto;
+}
+.listing-mg-6-item .term-badges.floated,
+.listing-mg-2-item .term-badges.floated,
+.listing-mg-1-item .term-badges.floated{
+    top: 20px;
+    left: 20px;
+    bottom: initial;
+}
+.rtl .listing-mg-6-item .term-badges.floated,
+.rtl .listing-mg-2-item .term-badges.floated,
+.rtl .listing-mg-1-item .term-badges.floated {
+    right: 20px;
+    left: auto;
+}
+.listing-item-classic-3 .term-badges.floated {
+    top: 8%;
+    left: 4%;
+    bottom: initial;
+}
+.rtl .listing-item-classic-3 .term-badges.floated {
+    right: 4%;
+    left: auto;
+}
+.listing-item .post-edit-link{
+    top: 0;
+    bottom: initial;
+}
+.listing-item-tb-2 .term-badges.floated .term-badge a {
+    background-color: #008625 !important;
+}
+.listing-item-grid-1 .featured {
+    margin-bottom: 15px;
+}
+.listing-item-grid.simple-grid .featured {
+    margin-bottom: 12px;
+}
+.listing-item-tb-2 .featured {
+    margin-bottom: 15px;
+}
+.better-newsticker .control-nav span .fa {
+    top: -1px;
+}
+
+
+/**
+ * =>Headers
+ **/
+.site-header.header-style-6 .main-menu.menu {
+    height: 101px;
+}
+.site-header.header-style-6 .main-menu.menu > li > a {
+    padding: 0 20px;
+}
+.site-header.header-style-6 .main-menu.menu > li.menu-have-icon > a {
+    padding-top: 35px;
+    line-height: 65px;
+}
+.site-header.header-style-6 .site-branding .logo.img-logo a {
+    line-height: 100px;
+    height: 100px;
+}
+.site-header.header-style-6 .main-menu.menu > li > a >.bf-icon.bf-custom-icon {
+    top: 28px;
+}
+.site-header.full-width .topbar,
+.site-header.boxed .topbar .topbar-inner{
+    position: relative;
+    z-index: 200;
+}
+.site-header.full-width .topbar:before,
+.site-header.boxed .topbar .topbar-inner:before{
+    content: '';
+    height: 50%;
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.1);
+    z-index: -1;
+}
+.topbar .topbar-date{
+    background-color: transparent;
+}
+
+
+/**
+ * =>Archive Title
+ **/
+.archive-title .pre-title:after {
+    display: none;
+}
+.archive-title .pre-title span{
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+}
+.archive-title .pre-title span:before{
+    content: '';
+    height: 50%;
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+
+
+/**
+ * =>Single Templates
+ **/
+.entry-terms.source .terms-label,
+.entry-terms.via .terms-label,
+.entry-terms.post-tags .terms-label {
+    position: relative;
+    z-index: 1;
+    border: 1px solid transparent;
+}
+.entry-terms.source .terms-label:after,
+.entry-terms.via .terms-label:after,
+.entry-terms.post-tags .terms-label:after{
+    content: '';
+    height: 50%;
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+
+
+/**
+ * =>WooCommerce
+ **/
+.woocommerce-account .addresses .title .edit {
+    margin-top: 4px;
+    font-size: 14px;
+}
+.site-header .shop-cart-container .cart-handler {
+    line-height: 40px;
+}
+.site-header.header-style-6 .main-menu-container.show-cart-item .cart-handler {
+    line-height: 96px;
+}
+.site-header .shop-cart-container .cart-box:after {
+    height: 2px;
+    top: -2px;
+}

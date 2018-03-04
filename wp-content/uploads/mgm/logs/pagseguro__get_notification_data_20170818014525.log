@@ -1,0 +1,21 @@
+
+3. [2017-08-18 01:45:25 UTC]: 
+----------------------------------------------------------------------------------------------------
+notification_url: https://ws.pagseguro.uol.com.br/v2/transactions/notifications/17FF3F-DE3AFB3AFBCC-4004E34FA818-714E8A/?email=contato@adfas.com.br&token=9F4D309279144124ADE2B1C98FE9A4AF
+
+4. [2017-08-18 01:45:26 UTC]: 
+----------------------------------------------------------------------------------------------------
+http_response: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><transaction><date>2017-08-03T22:26:43.000-03:00</date><code>E2C8B6FC-391A-4880-89D1-FCE2F818442B</code><reference>40</reference><type>1</type><status>4</status><lastEventDate>2017-08-17T22:45:18.000-03:00</lastEventDate><paymentMethod><type>1</type><code>102</code></paymentMethod><grossAmount>30.00</grossAmount><discountAmount>0.00</discountAmount><feeAmount>1.90</feeAmount><netAmount>28.10</netAmount><extraAmount>0.00</extraAmount><escrowEndDate>2017-08-17T22:43:46.000-03:00</escrowEndDate><installmentCount>1</installmentCount><itemCount>1</itemCount><items><item><id>6</id><description>ADFAS :: Associação de Direito de Família e das Sucessões Associado -  PESSOA FÍSICA Inscriçã</description><quantity>1</quantity><amount>30.00</amount></item></items><sender><name>Iraní Sousa da Silva</name><email>irani.nina@hotmail.com</email><phone><areaCode>11</areaCode><number>948164133</number></phone></sender><shipping><address><street>RUA DOS ABIEIROS</street><number>24</number><complement>ANTIGO 149</complement><district>Jardim das Camélias</district><city>SAO PAULO</city><state>SP</state><country>BRA</country><postalCode>08050560</postalCode></address><type>3</type><cost>0.00</cost></shipping></transaction>
+
+5. [2017-08-18 01:45:26 UTC]: 
+----------------------------------------------------------------------------------------------------
+PagSeguro IPN : processed :Array
+(
+    [code] => E2C8B6FC-391A-4880-89D1-FCE2F818442B
+    [custom] => 40
+    [type] => 1
+    [status] => 4
+    [status_code] => Available
+)
+
+

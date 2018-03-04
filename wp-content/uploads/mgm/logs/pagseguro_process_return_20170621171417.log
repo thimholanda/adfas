@@ -1,0 +1,45 @@
+
+1. [2017-06-21 17:14:17 UTC]: 
+----------------------------------------------------------------------------------------------------
+pagseguro process_return POST DATA:<pre>Array
+(
+    [VendedorEmail] => contato@adfas.com.br
+    [TransacaoID] => 7DABF38854E04CCD8856303054D8A861
+    [Referencia] => 
+    [Extras] => 0,00
+    [TipoFrete] => FR
+    [ValorFrete] => 0,00
+    [Anotacao] => 
+    [DataTransacao] => 21/06/2017 14:11:25
+    [TipoPagamento] => Boleto
+    [StatusTransacao] => Aguardando Pagto
+    [CliNome] => Maria Garcia
+    [CliEmail] => mariasaopaulo@bol.com.br
+    [CliEndereco] => RUA NOVO HORIZONTE
+    [CliNumero] => 46
+    [CliComplemento] => 
+    [CliBairro] => Higienópolis
+    [CliCidade] => SAO PAULO
+    [CliEstado] => SP
+    [CliCEP] => 01244020
+    [CliTelefone] => 11 975310837
+    [NumItens] => 1
+    [Parcelas] => 1
+    [ProdID_1] => 1405798711224
+    [ProdDescricao_1] => Anuidade Pessoa Física
+    [ProdValor_1] => 250,00
+    [ProdQuantidade_1] => 1
+    [ProdFrete_1] => 0,00
+    [ProdExtras_1] => 0,00
+)
+</pre>
+
+2. [2017-06-21 17:14:17 UTC]: 
+----------------------------------------------------------------------------------------------------
+pagseguro process_return GET DATA:<pre>Array
+(
+    [module] => mgm_pagseguro
+    [method] => payment_return
+)
+</pre>
+

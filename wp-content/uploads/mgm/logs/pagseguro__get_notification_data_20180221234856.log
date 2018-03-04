@@ -1,0 +1,21 @@
+
+3. [2018-02-21 23:48:56 UTC]: 
+----------------------------------------------------------------------------------------------------
+notification_url: https://ws.pagseguro.uol.com.br/v2/transactions/notifications/82F643-513C743C7485-455423AF87A7-26634D/?email=contato@adfas.com.br&token=9F4D309279144124ADE2B1C98FE9A4AF
+
+4. [2018-02-21 23:48:56 UTC]: 
+----------------------------------------------------------------------------------------------------
+http_response: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><transaction><date>2018-02-21T20:45:37.000-03:00</date><code>9726E219-64C3-402C-918E-91C2539927ED</code><reference>111</reference><type>1</type><status>3</status><lastEventDate>2018-02-21T20:49:21.000-03:00</lastEventDate><paymentMethod><type>1</type><code>102</code></paymentMethod><grossAmount>13.94</grossAmount><discountAmount>0.00</discountAmount><feeAmount>1.10</feeAmount><netAmount>12.84</netAmount><extraAmount>0.00</extraAmount><escrowEndDate>2018-03-07T20:49:21.000-03:00</escrowEndDate><installmentCount>1</installmentCount><itemCount>1</itemCount><items><item><id>7</id><description>ADFAS :: Associação de Direito de Família e das Sucessões Associado - ESTUDANTE Inscrição</description><quantity>1</quantity><amount>13.94</amount></item></items><sender><name>GABRIELA RIBEIRO</name><email>gaabittler@hotmail.com</email><phone><areaCode>11</areaCode><number>974660381</number></phone></sender><shipping><address><street>RUA SASSAKI</street><number>471</number><complement>casa22</complement><district>Vila Marari</district><city>SAO PAULO</city><state>SP</state><country>BRA</country><postalCode>04403000</postalCode></address><type>3</type><cost>0.00</cost></shipping></transaction>
+
+5. [2018-02-21 23:48:56 UTC]: 
+----------------------------------------------------------------------------------------------------
+PagSeguro IPN : processed :Array
+(
+    [code] => 9726E219-64C3-402C-918E-91C2539927ED
+    [custom] => 111
+    [type] => 1
+    [status] => 3
+    [status_code] => Paid
+)
+
+

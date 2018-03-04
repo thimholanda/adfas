@@ -1,0 +1,21 @@
+
+3. [2018-01-09 10:51:06 UTC]: 
+----------------------------------------------------------------------------------------------------
+notification_url: https://ws.pagseguro.uol.com.br/v2/transactions/notifications/859F79-A8EC2BEC2B8C-1664459FB1BB-DE400D/?email=contato@adfas.com.br&token=9F4D309279144124ADE2B1C98FE9A4AF
+
+4. [2018-01-09 10:51:06 UTC]: 
+----------------------------------------------------------------------------------------------------
+http_response: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><transaction><date>2018-01-09T08:49:23.000-02:00</date><code>E5281A71-4D00-4873-95F9-C1D34BB82C8D</code><reference>93</reference><type>1</type><status>3</status><lastEventDate>2018-01-09T08:51:04.000-02:00</lastEventDate><paymentMethod><type>1</type><code>101</code></paymentMethod><grossAmount>298.80</grossAmount><discountAmount>0.00</discountAmount><feeAmount>15.31</feeAmount><netAmount>283.49</netAmount><extraAmount>0.00</extraAmount><escrowEndDate>2018-01-23T08:51:05.000-02:00</escrowEndDate><installmentCount>1</installmentCount><itemCount>1</itemCount><items><item><id>4</id><description>ADFAS :: Associação de Direito de Família e das Sucessões Associado -  PESSOA FÍSICA Inscriçã</description><quantity>1</quantity><amount>298.80</amount></item></items><sender><name>José Maria Souza</name><email>jomarso_ze@yahoo.com.br</email><phone><areaCode>81</areaCode><number>30310381</number></phone></sender><shipping><address><street>RUA ITACARE</street><number>137</number><complement></complement><district>Ipsep</district><city>RECIFE</city><state>PE</state><country>BRA</country><postalCode>51200100</postalCode></address><type>3</type><cost>0.00</cost></shipping></transaction>
+
+5. [2018-01-09 10:51:06 UTC]: 
+----------------------------------------------------------------------------------------------------
+PagSeguro IPN : processed :Array
+(
+    [code] => E5281A71-4D00-4873-95F9-C1D34BB82C8D
+    [custom] => 93
+    [type] => 1
+    [status] => 3
+    [status_code] => Paid
+)
+
+

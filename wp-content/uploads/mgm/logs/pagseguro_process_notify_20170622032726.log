@@ -1,0 +1,45 @@
+
+1. [2017-06-22 03:27:26 UTC]: 
+----------------------------------------------------------------------------------------------------
+pagseguro process_notify POST DATA:<pre>Array
+(
+    [notificationCode] => ABBDD4-3882EA82EAAC-1AA421CFB20A-8E4681
+    [notificationType] => transaction
+)
+</pre>
+
+2. [2017-06-22 03:27:26 UTC]: 
+----------------------------------------------------------------------------------------------------
+pagseguro process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_pagseguro
+    [method] => payment_notify
+)
+</pre>
+
+6. [2017-06-22 03:27:26 UTC]: 
+----------------------------------------------------------------------------------------------------
+FROM PagSeguro process_notify: VERIFY Failed
+
+1. [2017-06-22 03:27:26 UTC]: 
+----------------------------------------------------------------------------------------------------
+pagseguro process_notify POST DATA:<pre>Array
+(
+    [notificationCode] => 71AC05-C5123912390D-4774428FA6F2-18FC91
+    [notificationType] => transaction
+)
+</pre>
+
+2. [2017-06-22 03:27:26 UTC]: 
+----------------------------------------------------------------------------------------------------
+pagseguro process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_pagseguro
+    [method] => payment_notify
+)
+</pre>
+
+6. [2017-06-22 03:27:26 UTC]: 
+----------------------------------------------------------------------------------------------------
+FROM PagSeguro process_notify: VERIFY Failed
+

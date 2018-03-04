@@ -1,0 +1,699 @@
+
+1. [2017-08-11 19:12:49 UTC]: 
+----------------------------------------------------------------------------------------------------
+SELECT SQL_CALC_FOUND_ROWS * FROM `wp_users` 
+		        WHERE ID NOT IN (1)   ORDER BY ID desc  LIMIT 0, 100
+
+2. [2017-08-11 19:12:49 UTC]: 
+----------------------------------------------------------------------------------------------------
+Array
+(
+    [0] => stdClass Object
+        (
+            [ID] => 50
+            [user_login] => RB
+            [user_pass] => $P$Bxs6WNxSfHHtLErvnLMxMuMU42yE2e1
+            [user_nicename] => rb
+            [user_email] => reginabeatriz@reginabeatriz.adv.br
+            [user_url] => 
+            [user_registered] => 2017-08-09 15:33:11
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => RB
+        )
+
+    [1] => stdClass Object
+        (
+            [ID] => 49
+            [user_login] => LEduardo
+            [user_pass] => $P$BNsGnx4l2/FQrjn5Gl5dNhmMUmPget1
+            [user_nicename] => leduardo
+            [user_email] => luiseduardo@reginabeatriz.adv.br
+            [user_url] => 
+            [user_registered] => 2017-08-09 15:04:44
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => LEduardo
+        )
+
+    [2] => stdClass Object
+        (
+            [ID] => 48
+            [user_login] => dapocavi
+            [user_pass] => $P$BAjxIHPEWkgzstT44/mrZGTRkgN0zg/
+            [user_nicename] => dapocavi
+            [user_email] => dapocavi@gmail.com
+            [user_url] => 
+            [user_registered] => 2017-08-06 21:33:35
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => dapocavi
+        )
+
+    [3] => stdClass Object
+        (
+            [ID] => 47
+            [user_login] => nhzrenpet
+            [user_pass] => $P$BrjrKzRp4KCoG4c8FvIztCgHHJzoRC.
+            [user_nicename] => nhzrenpet
+            [user_email] => gnkvyuozpp@emmail.info
+            [user_url] => 
+            [user_registered] => 2017-08-05 09:41:00
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => nhzrenpet
+        )
+
+    [4] => stdClass Object
+        (
+            [ID] => 46
+            [user_login] => nwbexzpet
+            [user_pass] => $P$B17ToLLKmvMbKlz.Hk4F/PezbHAutw/
+            [user_nicename] => nwbexzpet
+            [user_email] => bczlqoqrqv@mailmefast.info
+            [user_url] => 
+            [user_registered] => 2017-08-05 07:02:17
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => nwbexzpet
+        )
+
+    [5] => stdClass Object
+        (
+            [ID] => 45
+            [user_login] => ntpkrqpet
+            [user_pass] => $P$Bj7fhbT/696gxw/BHNMaVjNBQZ3T16/
+            [user_nicename] => ntpkrqpet
+            [user_email] => mkplypiuer@mailstome.today
+            [user_url] => 
+            [user_registered] => 2017-08-05 07:02:13
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => ntpkrqpet
+        )
+
+    [6] => stdClass Object
+        (
+            [ID] => 44
+            [user_login] => ngxtrppet
+            [user_pass] => $P$Bt9o.lkt9Xyps/CZtT3KS2D.pD/OIy.
+            [user_nicename] => ngxtrppet
+            [user_email] => wbyfkvkibz@mailermails.info
+            [user_url] => 
+            [user_registered] => 2017-08-05 07:02:03
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => ngxtrppet
+        )
+
+    [7] => stdClass Object
+        (
+            [ID] => 43
+            [user_login] => nmzkndpet
+            [user_pass] => $P$BfusMhUCyCf3cS1DxWoGFYOpuhSz/m/
+            [user_nicename] => nmzkndpet
+            [user_email] => shrmzamtzw@emmails.info
+            [user_url] => 
+            [user_registered] => 2017-08-05 03:58:18
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => nmzkndpet
+        )
+
+    [8] => stdClass Object
+        (
+            [ID] => 42
+            [user_login] => Irani
+            [user_pass] => $P$BTagOYzd0uoU.i9JPs22m6JFiTpu2F0
+            [user_nicename] => irani
+            [user_email] => irani.nina@hotmail.com
+            [user_url] => 
+            [user_registered] => 2017-08-04 01:26:17
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => Irani
+        )
+
+    [9] => stdClass Object
+        (
+            [ID] => 41
+            [user_login] => amandaoliveira
+            [user_pass] => $P$BJ1/KiSRZ61X0LJ44vwi68AN7SCK3P1
+            [user_nicename] => amandaoliveira
+            [user_email] => amanda@santosmenezes.com.br
+            [user_url] => 
+            [user_registered] => 2017-08-03 17:55:57
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => amandaoliveira
+        )
+
+    [10] => stdClass Object
+        (
+            [ID] => 40
+            [user_login] => fabiotancredi
+            [user_pass] => $P$BDa9bjtH/XCJHFMnanFnV4X8mS6xzK1
+            [user_nicename] => fabiotancredi
+            [user_email] => fabio@tancredi.adv.br
+            [user_url] => 
+            [user_registered] => 2017-08-03 17:43:23
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => fabiotancredi
+        )
+
+    [11] => stdClass Object
+        (
+            [ID] => 39
+            [user_login] => Analdinaoliveira
+            [user_pass] => $P$BoK/BDjKckdxgSSW.j0L9jiG53Kxex.
+            [user_nicename] => analdinaoliveira
+            [user_email] => analdina.neta@gmail.com
+            [user_url] => 
+            [user_registered] => 2017-08-03 14:26:43
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => Analdinaoliveira
+        )
+
+    [12] => stdClass Object
+        (
+            [ID] => 38
+            [user_login] => leane
+            [user_pass] => $P$Bt7/ZZP6xel36cdpq7QvdDmi5VK.sf1
+            [user_nicename] => leane
+            [user_email] => lkrine@hotmail.com
+            [user_url] => 
+            [user_registered] => 2017-08-01 22:19:10
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => leane
+        )
+
+    [13] => stdClass Object
+        (
+            [ID] => 37
+            [user_login] => andrenamorato
+            [user_pass] => $P$B8107kanP7/YtPlw0YGfP0PZUYweFV1
+            [user_nicename] => andrenamorato
+            [user_email] => andrenamorato@gmail.com
+            [user_url] => 
+            [user_registered] => 2017-08-01 20:09:53
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => andrenamorato
+        )
+
+    [14] => stdClass Object
+        (
+            [ID] => 36
+            [user_login] => isenise@oabsp.org.br
+            [user_pass] => $P$BI32NqvG/1Zq/7SH5QHKrK.eePlBdN.
+            [user_nicename] => iseniseoabsp-org-br
+            [user_email] => isenise@oabsp.org.br
+            [user_url] => 
+            [user_registered] => 2017-08-01 14:23:31
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => isenise@oabsp.org.br
+        )
+
+    [15] => stdClass Object
+        (
+            [ID] => 35
+            [user_login] => silviahelenachuairicarmona
+            [user_pass] => $P$BlAmOAFKhaQAGbwBndZDZoci9E.3rt/
+            [user_nicename] => silviahelenachuairicarmona
+            [user_email] => silviahelenachuairicarmona@gmail.com
+            [user_url] => 
+            [user_registered] => 2017-07-31 18:10:08
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => silviahelenachuairicarmona
+        )
+
+    [16] => stdClass Object
+        (
+            [ID] => 34
+            [user_login] => lauraslbrito
+            [user_pass] => $P$BFOXXj4AblI5/7uZw568qIhPMhrEbG1
+            [user_nicename] => lauraslbrito
+            [user_email] => lauraslbrito@gmail.com
+            [user_url] => 
+            [user_registered] => 2017-07-31 15:29:15
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => lauraslbrito
+        )
+
+    [17] => stdClass Object
+        (
+            [ID] => 33
+            [user_login] => sanhvcrib
+            [user_pass] => $P$Bl/2CS0QvuARrnKXKRHsSQHJm/ki9h1
+            [user_nicename] => sanhvcrib
+            [user_email] => bolonkamin@yandex.ru
+            [user_url] => 
+            [user_registered] => 2017-07-29 17:55:11
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => sanhvcrib
+        )
+
+    [18] => stdClass Object
+        (
+            [ID] => 32
+            [user_login] => irma
+            [user_pass] => $P$BX2h5N2X5EUAtKYQTtKVXiMY.bDECM1
+            [user_nicename] => irma
+            [user_email] => irmamaceira@gmail.com
+            [user_url] => 
+            [user_registered] => 2017-07-28 11:55:55
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => irma
+        )
+
+    [19] => stdClass Object
+        (
+            [ID] => 31
+            [user_login] => gpbastos
+            [user_pass] => $P$BJQU5BYS./aPTM.TD874cJx0rCoNJC.
+            [user_nicename] => gpbastos
+            [user_email] => gilvan@decidir.com.br
+            [user_url] => 
+            [user_registered] => 2017-07-27 20:44:21
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => gpbastos
+        )
+
+    [20] => stdClass Object
+        (
+            [ID] => 30
+            [user_login] => niiijvpet
+            [user_pass] => $P$BU46ilPIsmWRrUdSq8Vk8yvshB7toK1
+            [user_nicename] => niiijvpet
+            [user_email] => tceiiegiuj@mailermails.info
+            [user_url] => 
+            [user_registered] => 2017-07-27 00:34:49
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => niiijvpet
+        )
+
+    [21] => stdClass Object
+        (
+            [ID] => 29
+            [user_login] => Clemencia
+            [user_pass] => $P$BsxTdZ32SA7Gm4eNZuxQzbEgCJ.Vp6/
+            [user_nicename] => clemencia
+            [user_email] => clemenciawolthers@wth.com.br
+            [user_url] => 
+            [user_registered] => 2017-07-26 20:12:52
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => Clemencia
+        )
+
+    [22] => stdClass Object
+        (
+            [ID] => 28
+            [user_login] => PH_Brunetti
+            [user_pass] => $P$BuASGJlFLoK9QVFVjNV4f6ZY7SqhvO1
+            [user_nicename] => ph_brunetti
+            [user_email] => phbrunetti@adv.oabmg.org.br
+            [user_url] => 
+            [user_registered] => 2017-07-26 18:25:49
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => PH_Brunetti
+        )
+
+    [23] => stdClass Object
+        (
+            [ID] => 27
+            [user_login] => anacaroline@eabl.com.br
+            [user_pass] => $P$BF7CIRVv7VyrU7lMxMec4eWee3gmzy1
+            [user_nicename] => anacarolineeabl-com-br
+            [user_email] => anacaroline@eabl.com.br
+            [user_url] => 
+            [user_registered] => 2017-07-26 18:04:26
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => anacaroline@eabl.com.br
+        )
+
+    [24] => stdClass Object
+        (
+            [ID] => 26
+            [user_login] => Nayara
+            [user_pass] => $P$BvMj2LpUqroH9hmxqlNRHpcFslXOyY/
+            [user_nicename] => nayara
+            [user_email] => nina0991@hotmail.com
+            [user_url] => 
+            [user_registered] => 2017-07-26 17:41:21
+            [user_activation_key] => 1501546088:$P$Bwq4eUX00qoX.BtJP9ENIafr7R4pb5.
+            [user_status] => 0
+            [display_name] => Nayara
+        )
+
+    [25] => stdClass Object
+        (
+            [ID] => 25
+            [user_login] => cjbonemer
+            [user_pass] => $P$BUK3irBxfvA8iSEVXA.squ8UAHXvz20
+            [user_nicename] => cjbonemer
+            [user_email] => cjbonemer@gmail.com
+            [user_url] => 
+            [user_registered] => 2017-07-26 00:09:14
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => cjbonemer
+        )
+
+    [26] => stdClass Object
+        (
+            [ID] => 24
+            [user_login] => jaquelinecherulli@hotmail.com
+            [user_pass] => $P$Bw7uZoYU7qfeUrnt/IfcnS/b/snCUj/
+            [user_nicename] => jaquelinecherullihotmail-com
+            [user_email] => jaquelinecherulli@hotmail.com
+            [user_url] => 
+            [user_registered] => 2017-07-25 22:51:45
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => jaquelinecherulli@hotmail.com
+        )
+
+    [27] => stdClass Object
+        (
+            [ID] => 23
+            [user_login] => topdmsrib
+            [user_pass] => $P$BqPsCzsfA2f.xyb8USiH6hT5O0oe2n/
+            [user_nicename] => topdmsrib
+            [user_email] => korincka@yandex.ru
+            [user_url] => 
+            [user_registered] => 2017-07-23 22:00:21
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => topdmsrib
+        )
+
+    [28] => stdClass Object
+        (
+            [ID] => 22
+            [user_login] => hisguins
+            [user_pass] => $P$BousW3lWkVIjJB3K89MBf1jpb9KpA1/
+            [user_nicename] => hisguins
+            [user_email] => hisguins@opno.life
+            [user_url] => 
+            [user_registered] => 2017-07-21 04:19:38
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => hisguins
+        )
+
+    [29] => stdClass Object
+        (
+            [ID] => 21
+            [user_login] => JamesEvano
+            [user_pass] => $P$B.XUt/x/249/a9zUOD7mQvZgUFS.gt/
+            [user_nicename] => jamesevano
+            [user_email] => jamesfexk@mail.ru
+            [user_url] => 
+            [user_registered] => 2017-07-19 05:25:27
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => JamesEvano
+        )
+
+    [30] => stdClass Object
+        (
+            [ID] => 20
+            [user_login] => paula.marques@fsa.br
+            [user_pass] => $P$B7AAXSHyhpG7u44EOOH5fuXIFwFTM4/
+            [user_nicename] => paula-marquesfsa-br
+            [user_email] => paula.marques@fsa.br
+            [user_url] => 
+            [user_registered] => 2017-07-18 21:52:35
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => paula.marques@fsa.br
+        )
+
+    [31] => stdClass Object
+        (
+            [ID] => 19
+            [user_login] => joaomgp
+            [user_pass] => $P$Bvz7ex/NWmsxAE5e0Zgq0XPjaxYxft/
+            [user_nicename] => joaomgp
+            [user_email] => joaomarciopaiva@hotmail.com
+            [user_url] => 
+            [user_registered] => 2017-07-18 19:25:54
+            [user_activation_key] => 1500505002:$P$BRDQXcoHpMdcx5f3WaRtC4/d42NBVS.
+            [user_status] => 0
+            [display_name] => joaomgp
+        )
+
+    [32] => stdClass Object
+        (
+            [ID] => 18
+            [user_login] => FlaviaPadilha
+            [user_pass] => $P$BrK4q9ke7.ac7w/wN26o/frm0ScB/J0
+            [user_nicename] => flaviapadilha
+            [user_email] => flavia@flaviapadilha.com.br
+            [user_url] => 
+            [user_registered] => 2017-07-18 18:40:27
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => FlaviaPadilha
+        )
+
+    [33] => stdClass Object
+        (
+            [ID] => 17
+            [user_login] => IVES
+            [user_pass] => $P$BizTGzQiHuaQBXq3bhDxQ8cDKSiUew.
+            [user_nicename] => ives
+            [user_email] => igm@gandramartins.adv.br
+            [user_url] => 
+            [user_registered] => 2017-07-18 18:40:10
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => IVES
+        )
+
+    [34] => stdClass Object
+        (
+            [ID] => 16
+            [user_login] => Juliana
+            [user_pass] => $P$Bkh2yPyrVo104N3ekdr4VD0N6rE9HU/
+            [user_nicename] => juliana
+            [user_email] => juliana.faber@gmail.com
+            [user_url] => 
+            [user_registered] => 2017-07-18 15:07:39
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => Juliana
+        )
+
+    [35] => stdClass Object
+        (
+            [ID] => 15
+            [user_login] => gilbertojabur
+            [user_pass] => $P$BhRWoVrA4w.8KNvuy4CoKvc605Qd3V1
+            [user_nicename] => gilbertojabur
+            [user_email] => gilberto@ghj.com.br
+            [user_url] => 
+            [user_registered] => 2017-07-18 13:38:53
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => gilbertojabur
+        )
+
+    [36] => stdClass Object
+        (
+            [ID] => 14
+            [user_login] => Franco
+            [user_pass] => $P$Bjh8u5RxS7RF5PhiP38HybDe4L5C/B/
+            [user_nicename] => franco
+            [user_email] => francofernandes@globo.com
+            [user_url] => 
+            [user_registered] => 2017-07-18 12:07:34
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => Franco
+        )
+
+    [37] => stdClass Object
+        (
+            [ID] => 13
+            [user_login] => ELIAS
+            [user_pass] => $P$BuzHp3pYEd.Xi7uztKZO0JshhP1qv9.
+            [user_nicename] => elias
+            [user_email] => eliasfarahadv@gmail.com
+            [user_url] => 
+            [user_registered] => 2017-07-18 12:02:52
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => ELIAS
+        )
+
+    [38] => stdClass Object
+        (
+            [ID] => 12
+            [user_login] => heliofoliveira
+            [user_pass] => $P$B1IsaaLM2nhciXBNZgBIEpJjA9loc11
+            [user_nicename] => heliofoliveira
+            [user_email] => h.ferraz@ferrazadv.com.br
+            [user_url] => 
+            [user_registered] => 2017-07-18 02:11:03
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => heliofoliveira
+        )
+
+    [39] => stdClass Object
+        (
+            [ID] => 11
+            [user_login] => Eliane
+            [user_pass] => $P$BbtjwERlK4qD9MZ6HG3Wk.rf/nq2N3.
+            [user_nicename] => eliane
+            [user_email] => elianemmarques@hotmail.com
+            [user_url] => 
+            [user_registered] => 2017-07-17 22:45:25
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => Eliane
+        )
+
+    [40] => stdClass Object
+        (
+            [ID] => 10
+            [user_login] => agfernandes
+            [user_pass] => $P$BYgaMtLR7SFy34fsMsCW9GKeQY8w2I/
+            [user_nicename] => agfernandes
+            [user_email] => fernandes.agf@hotmail.com
+            [user_url] => 
+            [user_registered] => 2017-07-17 18:26:12
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => agfernandes
+        )
+
+    [41] => stdClass Object
+        (
+            [ID] => 9
+            [user_login] => dalmolin82
+            [user_pass] => $P$B0Zg4crP6BoR1ZfWDi6ozeO3oVZ6.D.
+            [user_nicename] => dalmolin82
+            [user_email] => gustavo@dalmolin.not.br
+            [user_url] => 
+            [user_registered] => 2017-07-17 16:59:06
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => dalmolin82
+        )
+
+    [42] => stdClass Object
+        (
+            [ID] => 8
+            [user_login] => annaavf
+            [user_pass] => $P$BuOEsW4K/FPL1hX2I.zv07QzbfzjjH/
+            [user_nicename] => annaavf
+            [user_email] => anna.avfigueiredo@gmail.com
+            [user_url] => 
+            [user_registered] => 2017-07-17 16:47:25
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => annaavf
+        )
+
+    [43] => stdClass Object
+        (
+            [ID] => 7
+            [user_login] => mdeamon
+            [user_pass] => $P$BpkxOFBJIw.PNxwsPVDodZn22le9.e0
+            [user_nicename] => mdeamon
+            [user_email] => sm@hotmail.com
+            [user_url] => 
+            [user_registered] => 2017-07-13 15:55:22
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => mdeamon
+        )
+
+    [44] => stdClass Object
+        (
+            [ID] => 6
+            [user_login] => douglasb
+            [user_pass] => $P$BZQzHZ8PplaeqqkwmEh1/53m4N.n9o1
+            [user_nicename] => douglasb
+            [user_email] => douglascorreiasf2016@gmail.com
+            [user_url] => 
+            [user_registered] => 2017-07-13 13:43:22
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => douglasb
+        )
+
+    [45] => stdClass Object
+        (
+            [ID] => 5
+            [user_login] => douglasc
+            [user_pass] => $P$BWrCaE3RRKp3Ba1RH0VZ.uDv2CKk5l1
+            [user_nicename] => douglasc
+            [user_email] => dcorreya13@hotmail.com
+            [user_url] => 
+            [user_registered] => 2017-07-13 13:38:17
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => douglasc
+        )
+
+    [46] => stdClass Object
+        (
+            [ID] => 4
+            [user_login] => Bruno
+            [user_pass] => $P$B24rlw.lJzns.MkIW5Cr6PTMjYGR0T.
+            [user_nicename] => bruno
+            [user_email] => avila.borgarelli@gmail.com
+            [user_url] => 
+            [user_registered] => 2017-07-12 19:24:24
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => Bruno
+        )
+
+    [47] => stdClass Object
+        (
+            [ID] => 3
+            [user_login] => Douglas
+            [user_pass] => $P$BD4PPr/.EBcIBu7QYi3wUVYPF.LMQd0
+            [user_nicename] => douglas
+            [user_email] => douglas@adfas.org.br
+            [user_url] => 
+            [user_registered] => 2017-07-12 17:54:59
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => Douglas
+        )
+
+    [48] => stdClass Object
+        (
+            [ID] => 2
+            [user_login] => smallsuporte
+            [user_pass] => $P$BHQInsZUonPyNWmFgE3naAXkfDm7jW0
+            [user_nicename] => smallsuporte
+            [user_email] => mateus@agenciasmall.com.br
+            [user_url] => 
+            [user_registered] => 2017-07-10 18:51:07
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => smallsuporte
+        )
+
+)
+
+

@@ -1,0 +1,45 @@
+
+1. [2017-06-23 21:50:11 UTC]: 
+----------------------------------------------------------------------------------------------------
+pagseguro process_return POST DATA:<pre>Array
+(
+    [VendedorEmail] => contato@adfas.com.br
+    [TransacaoID] => 2E64D7C8379146E2B0CD6BAFF3C5841B
+    [Referencia] => 
+    [Extras] => 0,00
+    [TipoFrete] => FR
+    [ValorFrete] => 0,00
+    [Anotacao] => 
+    [DataTransacao] => 23/06/2017 18:41:35
+    [TipoPagamento] => Cartão de Crédito
+    [StatusTransacao] => Aprovado
+    [CliNome] => GILBERTO I F CONTI
+    [CliEmail] => gifconti@gmail.com
+    [CliEndereco] => ALAMEDA DOS ARAPANES
+    [CliNumero] => 161
+    [CliComplemento] => 81
+    [CliBairro] => Moema
+    [CliCidade] => SAO PAULO
+    [CliEstado] => SP
+    [CliCEP] => 04524000
+    [CliTelefone] => 11 992224146
+    [NumItens] => 1
+    [Parcelas] => 1
+    [ProdID_1] => 1405798711224
+    [ProdDescricao_1] => Anuidade Pessoa Física
+    [ProdValor_1] => 250,00
+    [ProdQuantidade_1] => 1
+    [ProdFrete_1] => 0,00
+    [ProdExtras_1] => 0,00
+)
+</pre>
+
+2. [2017-06-23 21:50:11 UTC]: 
+----------------------------------------------------------------------------------------------------
+pagseguro process_return GET DATA:<pre>Array
+(
+    [module] => mgm_pagseguro
+    [method] => payment_return
+)
+</pre>
+

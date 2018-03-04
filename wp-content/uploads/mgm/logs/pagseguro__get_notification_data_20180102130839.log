@@ -1,0 +1,21 @@
+
+3. [2018-01-02 13:08:39 UTC]: 
+----------------------------------------------------------------------------------------------------
+notification_url: https://ws.pagseguro.uol.com.br/v2/transactions/notifications/05783C-8CB18CB18CA4-3224C89F8FE8-EA9E95/?email=contato@adfas.com.br&token=9F4D309279144124ADE2B1C98FE9A4AF
+
+4. [2018-01-02 13:08:39 UTC]: 
+----------------------------------------------------------------------------------------------------
+http_response: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><transaction><date>2018-01-02T11:01:44.000-02:00</date><code>B1D6630E-6CD8-4787-B3E0-1DA2B0392D33</code><reference>91</reference><recoveryCode>7df5a68dd88c50bbcfff884d90e8de652ffa54d62e0140c9</recoveryCode><type>1</type><status>1</status><lastEventDate>2018-01-02T11:08:43.000-02:00</lastEventDate><paymentMethod><type>1</type><code>102</code></paymentMethod><grossAmount>30.00</grossAmount><discountAmount>0.00</discountAmount><feeAmount>1.90</feeAmount><netAmount>28.10</netAmount><extraAmount>0.00</extraAmount><installmentCount>1</installmentCount><itemCount>1</itemCount><items><item><id>6</id><description>ADFAS :: Associação de Direito de Família e das Sucessões Associado -  PESSOA FÍSICA Inscriçã</description><quantity>1</quantity><amount>30.00</amount></item></items><sender><name>DIEGO ROCHA</name><email>diegorocha@live.com</email><phone><areaCode>28</areaCode><number>99631599</number></phone></sender><shipping><address><street>RUA LUIZ CORREA MALVA</street><number>40</number><complement></complement><district>Santo Antônio</district><city>CACHOEIRO DE ITAPEMIRIM</city><state>ES</state><country>BRA</country><postalCode>29300540</postalCode></address><type>3</type><cost>0.00</cost></shipping></transaction>
+
+5. [2018-01-02 13:08:39 UTC]: 
+----------------------------------------------------------------------------------------------------
+PagSeguro IPN : processed :Array
+(
+    [code] => B1D6630E-6CD8-4787-B3E0-1DA2B0392D33
+    [custom] => 91
+    [type] => 1
+    [status] => 1
+    [status_code] => Awaiting Payment
+)
+
+

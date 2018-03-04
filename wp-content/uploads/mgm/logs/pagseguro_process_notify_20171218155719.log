@@ -1,0 +1,19 @@
+
+1. [2017-12-18 15:57:19 UTC]: 
+----------------------------------------------------------------------------------------------------
+pagseguro process_notify POST DATA:<pre>Array
+(
+    [notificationCode] => ECDCB8-FEE9BAE9BA6F-C9948F8FBED8-78B937
+    [notificationType] => transaction
+)
+</pre>
+
+2. [2017-12-18 15:57:19 UTC]: 
+----------------------------------------------------------------------------------------------------
+pagseguro process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_pagseguro
+    [method] => payment_notify
+)
+</pre>
+

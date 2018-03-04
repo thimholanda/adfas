@@ -1,0 +1,55 @@
+
+1. [2018-01-26 15:04:48 UTC]: 
+----------------------------------------------------------------------------------------------------
+SELECT SQL_CALC_FOUND_ROWS * FROM `wp_users` 
+		        WHERE ID NOT IN (1)  AND `ID` IN (25,69,79)  ORDER BY ID DESC  LIMIT 0, 100
+
+2. [2018-01-26 15:04:48 UTC]: 
+----------------------------------------------------------------------------------------------------
+Array
+(
+    [0] => stdClass Object
+        (
+            [ID] => 79
+            [user_login] => CHARLES_ALBERT
+            [user_pass] => $P$BhHnH29jhWCETInVFBbg5TTEUY2vtk/
+            [user_nicename] => charles_albert
+            [user_email] => charlesagl@hotmail.com
+            [user_url] => 
+            [user_registered] => 2017-10-25 15:04:35
+            [user_activation_key] => 1509074540:$P$BCAPtU4O5/qBcEZMALYC/3VwnGuUR7/
+            [user_status] => 0
+            [display_name] => CHARLES_ALBERT
+        )
+
+    [1] => stdClass Object
+        (
+            [ID] => 69
+            [user_login] => CharlesSkymn
+            [user_pass] => $P$B9ySNEAaRXJNrzYUOgzqqJLFxC3WUC.
+            [user_nicename] => charlesskymn
+            [user_email] => utesossamanolwh@yahoo.com
+            [user_url] => 
+            [user_registered] => 2017-09-24 21:32:07
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => CharlesSkymn
+        )
+
+    [2] => stdClass Object
+        (
+            [ID] => 25
+            [user_login] => cjbonemer
+            [user_pass] => $P$BUK3irBxfvA8iSEVXA.squ8UAHXvz20
+            [user_nicename] => cjbonemer
+            [user_email] => cjbonemer@gmail.com
+            [user_url] => 
+            [user_registered] => 2017-07-26 00:09:14
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => cjbonemer
+        )
+
+)
+
+

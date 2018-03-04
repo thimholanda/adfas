@@ -1,0 +1,23 @@
+
+1. [2017-06-21 23:21:42 UTC]: 
+----------------------------------------------------------------------------------------------------
+pagseguro process_notify POST DATA:<pre>Array
+(
+    [notificationCode] => 404A67-05D018D01856-0334CF3F9203-308892
+    [notificationType] => transaction
+)
+</pre>
+
+2. [2017-06-21 23:21:42 UTC]: 
+----------------------------------------------------------------------------------------------------
+pagseguro process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_pagseguro
+    [method] => payment_notify
+)
+</pre>
+
+6. [2017-06-21 23:21:42 UTC]: 
+----------------------------------------------------------------------------------------------------
+FROM PagSeguro process_notify: VERIFY Failed
+

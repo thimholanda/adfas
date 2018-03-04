@@ -1,0 +1,10 @@
+PACKAGING
+
+Old WPSC id | New Product Id | Unique Guid
+--------------------------------------------------------------
+1           | 583            | magic-members-single-license
+2           | 602            | magic-members-3-users-license
+3           | 587            | magic-members-unlimited-license
+--------------------------------------------------------------
+?           | 1822           | magic-members-trial-license
+--------------------------------------------------------------

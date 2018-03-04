@@ -1,0 +1,21 @@
+
+3. [2018-02-13 19:14:46 UTC]: 
+----------------------------------------------------------------------------------------------------
+notification_url: https://ws.pagseguro.uol.com.br/v2/transactions/notifications/8E5512-EBBB31BB31B5-888487FF97CC-1E1C58/?email=contato@adfas.com.br&token=9F4D309279144124ADE2B1C98FE9A4AF
+
+4. [2018-02-13 19:14:47 UTC]: 
+----------------------------------------------------------------------------------------------------
+http_response: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><transaction><date>2018-01-30T17:10:12.000-02:00</date><code>53448176-B933-4F81-AFB4-718B7ECC2CC1</code><reference>104</reference><type>1</type><status>4</status><lastEventDate>2018-02-13T17:15:06.000-02:00</lastEventDate><paymentMethod><type>1</type><code>101</code></paymentMethod><grossAmount>298.80</grossAmount><discountAmount>0.00</discountAmount><feeAmount>15.31</feeAmount><netAmount>283.49</netAmount><extraAmount>0.00</extraAmount><escrowEndDate>2018-02-13T17:13:27.000-02:00</escrowEndDate><installmentCount>1</installmentCount><itemCount>1</itemCount><items><item><id>4</id><description>ADFAS :: Associação de Direito de Família e das Sucessões Associado -  PESSOA FÍSICA Inscriçã</description><quantity>1</quantity><amount>298.80</amount></item></items><sender><name>Debora Gozzo</name><email>deboragozzo@terra.com.br</email><phone><areaCode>11</areaCode><number>983692161</number></phone></sender><shipping><address><street>RUA HADDOCK LOBO</street><number>250</number><complement>Ap. 405</complement><district>Cerqueira César</district><city>SAO PAULO</city><state>SP</state><country>BRA</country><postalCode>01414000</postalCode></address><type>3</type><cost>0.00</cost></shipping></transaction>
+
+5. [2018-02-13 19:14:47 UTC]: 
+----------------------------------------------------------------------------------------------------
+PagSeguro IPN : processed :Array
+(
+    [code] => 53448176-B933-4F81-AFB4-718B7ECC2CC1
+    [custom] => 104
+    [type] => 1
+    [status] => 4
+    [status_code] => Available
+)
+
+

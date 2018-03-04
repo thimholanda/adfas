@@ -1,0 +1,21 @@
+
+3. [2017-12-19 15:24:13 UTC]: 
+----------------------------------------------------------------------------------------------------
+notification_url: https://ws.pagseguro.uol.com.br/v2/transactions/notifications/FF9F3E-3165C665C6E8-FCC44C8F95AD-65C860/?email=contato@adfas.com.br&token=9F4D309279144124ADE2B1C98FE9A4AF
+
+4. [2017-12-19 15:24:13 UTC]: 
+----------------------------------------------------------------------------------------------------
+http_response: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><transaction><date>2017-12-05T13:12:44.000-02:00</date><code>3D9716E4-773F-445E-88C8-5563D4CFBD17</code><reference>84</reference><type>1</type><status>4</status><lastEventDate>2017-12-19T13:24:10.000-02:00</lastEventDate><paymentMethod><type>1</type><code>101</code></paymentMethod><grossAmount>30.00</grossAmount><discountAmount>0.00</discountAmount><feeAmount>1.90</feeAmount><netAmount>28.10</netAmount><extraAmount>0.00</extraAmount><escrowEndDate>2017-12-19T13:22:19.000-02:00</escrowEndDate><installmentCount>1</installmentCount><itemCount>1</itemCount><items><item><id>6</id><description>ADFAS :: Associação de Direito de Família e das Sucessões Associado -  PESSOA FÍSICA Inscriçã</description><quantity>1</quantity><amount>30.00</amount></item></items><sender><name>SELMA O SILVA</name><email>wlladcs@gmail.com</email><phone><areaCode>79</areaCode><number>991928765</number></phone></sender><shipping><address><street>AVENIDA Y</street><number>959</number><complement>Casa 60</complement><district>Zona de Expansão Aruana</district><city>ARACAJU</city><state>SE</state><country>BRA</country><postalCode>49000480</postalCode></address><type>3</type><cost>0.00</cost></shipping></transaction>
+
+5. [2017-12-19 15:24:13 UTC]: 
+----------------------------------------------------------------------------------------------------
+PagSeguro IPN : processed :Array
+(
+    [code] => 3D9716E4-773F-445E-88C8-5563D4CFBD17
+    [custom] => 84
+    [type] => 1
+    [status] => 4
+    [status_code] => Available
+)
+
+

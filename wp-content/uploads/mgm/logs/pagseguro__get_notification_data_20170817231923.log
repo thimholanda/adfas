@@ -1,0 +1,21 @@
+
+3. [2017-08-17 23:19:23 UTC]: 
+----------------------------------------------------------------------------------------------------
+notification_url: https://ws.pagseguro.uol.com.br/v2/transactions/notifications/6A0981-45CBB4CBB407-5AA4328FAEFF-5577B1/?email=contato@adfas.com.br&token=9F4D309279144124ADE2B1C98FE9A4AF
+
+4. [2017-08-17 23:19:25 UTC]: 
+----------------------------------------------------------------------------------------------------
+http_response: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><transaction><date>2017-08-17T20:16:03.000-03:00</date><code>0ECB947A-0458-4E31-BC3B-F451AADCB37F</code><reference>52</reference><type>1</type><status>3</status><lastEventDate>2017-08-17T20:19:17.000-03:00</lastEventDate><paymentMethod><type>1</type><code>101</code></paymentMethod><grossAmount>298.80</grossAmount><discountAmount>0.00</discountAmount><feeAmount>15.31</feeAmount><netAmount>283.49</netAmount><extraAmount>0.00</extraAmount><escrowEndDate>2017-08-31T20:19:17.000-03:00</escrowEndDate><installmentCount>1</installmentCount><itemCount>1</itemCount><items><item><id>4</id><description>ADFAS :: Associação de Direito de Família e das Sucessões Associado -  PESSOA FÍSICA Inscriçã</description><quantity>1</quantity><amount>298.80</amount></item></items><sender><name>mauricio pires</name><email>mauriciopires.advogado@gmail.com</email><phone><areaCode>45</areaCode><number>91122300</number></phone></sender><shipping><address><street>RUA JUNDIAI</street><number>105</number><complement></complement><district>Jardim Paraná</district><city>FOZ DO IGUACU</city><state>PR</state><country>BRA</country><postalCode>85867660</postalCode></address><type>3</type><cost>0.00</cost></shipping></transaction>
+
+5. [2017-08-17 23:19:25 UTC]: 
+----------------------------------------------------------------------------------------------------
+PagSeguro IPN : processed :Array
+(
+    [code] => 0ECB947A-0458-4E31-BC3B-F451AADCB37F
+    [custom] => 52
+    [type] => 1
+    [status] => 3
+    [status_code] => Paid
+)
+
+

@@ -1,0 +1,23 @@
+
+1. [2017-07-31 01:45:31 UTC]: 
+----------------------------------------------------------------------------------------------------
+pagseguro process_notify POST DATA:<pre>Array
+(
+    [notificationCode] => 84C8D6-E3B0B0B0B06A-B664CBAFB91E-9FCFC9
+    [notificationType] => preApproval
+)
+</pre>
+
+2. [2017-07-31 01:45:31 UTC]: 
+----------------------------------------------------------------------------------------------------
+pagseguro process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_pagseguro
+    [method] => payment_notify
+)
+</pre>
+
+6. [2017-07-31 01:45:33 UTC]: 
+----------------------------------------------------------------------------------------------------
+FROM PagSeguro process_notify: VERIFY Failed
+

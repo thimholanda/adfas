@@ -1,0 +1,21 @@
+
+3. [2017-12-18 13:48:09 UTC]: 
+----------------------------------------------------------------------------------------------------
+notification_url: https://ws.pagseguro.uol.com.br/v2/transactions/notifications/C0CA17-17F8A8F8A850-99948E2F91BA-092328/?email=contato@adfas.com.br&token=9F4D309279144124ADE2B1C98FE9A4AF
+
+4. [2017-12-18 13:48:10 UTC]: 
+----------------------------------------------------------------------------------------------------
+http_response: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><transaction><date>2017-12-04T11:43:10.000-02:00</date><code>603C9DCC-1BF8-4423-BF70-D7538A5C80BB</code><reference>81</reference><type>1</type><status>4</status><lastEventDate>2017-12-18T11:48:10.000-02:00</lastEventDate><paymentMethod><type>1</type><code>101</code></paymentMethod><grossAmount>298.80</grossAmount><discountAmount>0.00</discountAmount><feeAmount>15.31</feeAmount><netAmount>283.49</netAmount><extraAmount>0.00</extraAmount><escrowEndDate>2017-12-18T11:45:41.000-02:00</escrowEndDate><installmentCount>1</installmentCount><itemCount>1</itemCount><items><item><id>4</id><description>ADFAS :: Associação de Direito de Família e das Sucessões Associado -  PESSOA FÍSICA Inscriçã</description><quantity>1</quantity><amount>298.80</amount></item></items><sender><name>IBRAHIM MADEIRA FH</name><email>ifleurymadeira@gmail.com</email><phone><areaCode>34</areaCode><number>999271969</number></phone></sender><shipping><address><street>RUA QUINZE DE NOVEMBRO</street><number>380</number><complement>ap. 701</complement><district>Fundinho</district><city>UBERLANDIA</city><state>MG</state><country>BRA</country><postalCode>38400214</postalCode></address><type>3</type><cost>0.00</cost></shipping></transaction>
+
+5. [2017-12-18 13:48:10 UTC]: 
+----------------------------------------------------------------------------------------------------
+PagSeguro IPN : processed :Array
+(
+    [code] => 603C9DCC-1BF8-4423-BF70-D7538A5C80BB
+    [custom] => 81
+    [type] => 1
+    [status] => 4
+    [status_code] => Available
+)
+
+

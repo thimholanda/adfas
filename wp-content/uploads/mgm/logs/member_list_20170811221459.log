@@ -1,0 +1,27 @@
+
+1. [2017-08-11 22:14:59 UTC]: 
+----------------------------------------------------------------------------------------------------
+SELECT SQL_CALC_FOUND_ROWS * FROM `wp_users` 
+		        WHERE ID NOT IN (1)  AND `user_email` LIKE '%mateus@agenciasmall.com.br%'  ORDER BY ID DESC  LIMIT 0, 100
+
+2. [2017-08-11 22:14:59 UTC]: 
+----------------------------------------------------------------------------------------------------
+Array
+(
+    [0] => stdClass Object
+        (
+            [ID] => 2
+            [user_login] => smallsuporte
+            [user_pass] => $P$BHQInsZUonPyNWmFgE3naAXkfDm7jW0
+            [user_nicename] => smallsuporte
+            [user_email] => mateus@agenciasmall.com.br
+            [user_url] => 
+            [user_registered] => 2017-07-10 18:51:07
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => smallsuporte
+        )
+
+)
+
+

@@ -1,0 +1,21 @@
+
+3. [2017-07-27 09:16:20 UTC]: 
+----------------------------------------------------------------------------------------------------
+notification_url: https://ws.pagseguro.uol.com.br/v2/transactions/notifications/654577-B2651D651D86-78848EEFBC7F-C52F54/?email=contato@adfas.com.br&token=9F4D309279144124ADE2B1C98FE9A4AF
+
+4. [2017-07-27 09:16:22 UTC]: 
+----------------------------------------------------------------------------------------------------
+http_response: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><transaction><date>2017-07-12T14:55:08.000-03:00</date><code>12EABA5A-6ABF-4884-AB0F-4DD9331585A6</code><reference>2</reference><type>1</type><status>4</status><lastEventDate>2017-07-27T03:56:49.000-03:00</lastEventDate><paymentMethod><type>2</type><code>202</code></paymentMethod><paymentLink>https://pagseguro.uol.com.br/checkout/payment/booklet/print.jhtml?c=24d9ed623b55e36e7841582b0e1ba094cdebacee4281dcf5633b6c87547a94cbdd314898a237048f</paymentLink><grossAmount>142.80</grossAmount><discountAmount>0.00</discountAmount><feeAmount>7.53</feeAmount><netAmount>135.27</netAmount><extraAmount>0.00</extraAmount><escrowEndDate>2017-07-27T03:35:55.000-03:00</escrowEndDate><installmentCount>1</installmentCount><itemCount>1</itemCount><items><item><id>3</id><description>ADFAS :: Associação de Direito de Família e das Sucessões Associado - ESTUDANTE Inscrição</description><quantity>1</quantity><amount>142.80</amount></item></items><sender><name>Douglas Correia</name><email>douglas@adfas.org.br</email><phone><areaCode>11</areaCode><number>979564056</number></phone></sender><shipping><address><street>AVENIDA NOVE DE JULHO</street><number>4726</number><complement>ap 12</complement><district>Jardim Paulista</district><city>SAO PAULO</city><state>SP</state><country>BRA</country><postalCode>01406200</postalCode></address><type>3</type><cost>0.00</cost></shipping></transaction>
+
+5. [2017-07-27 09:16:22 UTC]: 
+----------------------------------------------------------------------------------------------------
+PagSeguro IPN : processed :Array
+(
+    [code] => 12EABA5A-6ABF-4884-AB0F-4DD9331585A6
+    [custom] => 2
+    [type] => 1
+    [status] => 4
+    [status_code] => Available
+)
+
+

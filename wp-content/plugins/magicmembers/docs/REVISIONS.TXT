@@ -1,0 +1,350 @@
+Version 1.5, Build 2.0
+--------------------------------------------------
+- php5 and ajax modular approach
+- internal module ( payment, autoresponders ) upgrade
+- versioned core, self contained auto upgrader for core modules, switching to server specific version for optimum speed
+- auto track membership cancelation ( paypal, authorize.net)
+- wp 3 tested code and wp hooks, trim all wp3 < features out.
+- fully ajaxed admin interface
+- better security.
+- credit card processing onsite
+- return to purchased post after payment completion.
+- fixed post pack
+- new payment nodules, ccbill, 2co, manualpay, paypalpro. 
+- fixed xls download
+- fixed dashboard statistics
+- other payment modules for post pack mapping except paypal, paypalpro and authorize.net
+- new content protection
+- fixed settings - messages save bug
+- fixed validation bug in payment modules
+- fixed typo errors
+- found and fixed bug in gift post/page
+- updated download code for buffer bug.
+- account extend & ongoing membership tracking
+- chnage in content protection, no protection will parse private tags if set, partly protection will not auto add private tag
+  if word limit =0 
+- download bug for private access, updated random code based download  
+- fixed bug in post setup/ message quotes on php setting magic_quotes_on = off
+- subscript payment completion/extend for payment canceled 
+- ARB/AIM for authorize.net
+- disabled public script
+- fixed login redirect
+- fixed custom userfield hide
+- fixed coupon fraction value bug
+- updated paypal module for payment return custom post varibale check, not populated on live
+- updated admin controllers to switch return statement to support bug fix for some cgi server
+- fixed filter and pagination on members list
+- Fix for admin ssl protocol
+- Fixed subscription type coupon
+- Fixed Subscription name overflow for Authorize.Net ARB ( 50 chars max)
+- added order and active/inacive option for Subscription packages
+- added module restriction on subscription
+- fixed and added subject for email templates
+- fixed post object serialization bug for mgm_post
+- updated membership type delete and all packs update it with warning. iss #179
+- fixed custom post type meta box bug iss#178
+- rewrite content protection for internal clash, better logic for content protection, message tags parse
+- added expire date feature in downloads #182
+- fix double loop for old to upgrade active subscription
+- added new tags [register] [name] 
+- fixed bug in autoresponder
+- fixed known bugs in rbs worldpay
+- added more country to paypal locale
+- revised content protection
+- added iContact autoresponder
+- new fields for credit card address info
+- added option to set autoresponder as hidden
+- added alertpay payment module
+- added ogone payment module
+- added sagepay payment module
+- fixed mailchimp url error #187
+- 218 issue, custom thank url for payments
+- introduced reusable widgets for all MGM widgets including some minor bug fix in login widget and text widget,
+  upgrade includes migration to delete previous/old single instance widget settings in order to multiple instance work
+  issue#217 
+- fixed reminder email iss#224    
+- fix for icontact #225
+- fix for user add by admin redirect to subscribe
+- completed custom thank you url for all payment gateways
+- updated deprecated php5.3 functions
+- modified TOS display for html support
+- added support for extend expire date for ongoing membership
+- manual, free and trial pay now have custom thank you url #218
+- fix for options in userfield #226
+- added dir index deny for protected folders #232
+- account expiration reset for ongoing membership #
+- terms & condition in html #237
+- custom post type conflict with rewrite flush #238
+- fixed user hook javascript #241
+- fistname, custom field first name in registration mail #243
+- trial support in Worldpay #247
+- fixed userfield update by admin #204
+- fixed PPP packs not displayed properly to non logged in users #242
+- fixed custom url payment message for post purchased/ logged in users
+- added auto redirect for post purchase
+- added link back for post purchase.
+- added provision for a letr date status update if user uses manualpay to upgrade while still active. #246
+- redesigned members content page #250
+- fixed display bug in post purchased #259
+- updated membership contents and profile page #250
+- added unsubscibe 
+- fixed debug mode errors
+- updated content list #250
+- fixed editor bug on IE #263, need update in mgk and mga too, mgk is uptodate, mga is under work
+- fixed guest access #272
+- fixed #271 2co unsubscribe issue
+- fixed status widget bug
+- fixed login widget #252
+- added div html in login form
+- added coupon feature on extend/upgrade process, added limited coupon and coupon expire date feature #261
+- found and fixed bug coupon users list
+- fixed WorlPay IPN error #
+- fixed delayed cancellation feature where applicable #278, also added cancellation feature in PayPalPro which is not working for now, 
+- added empty data check in content hooks #286
+- added hide_private_content in update user account #282
+- #287, with trial set as 0, only subscr_signup IPN is sent which does not contain payment_status, subscr_payment is not sent and thus member acivation fails,
+  added check for trial cost and verified  payment with subscr_id 
+- added new susbscription name with [blogname] and [membership] tags
+- updated message/email template system to html based template
+- fixed bug in private content protection
+- fixed paypal bug for LIVE free trial, #298
+- new coupon tag added for trial settings #297
+- new register by membership url and shortcode introduced, all tags renamed with naming convention.
+- worldpay module design updated to support meta refresh required by Worldpay to redirect users
+  after payment #299
+- separate register tag/url for membership level and package
+- autoresponders sent when payment success 
+- private tag redirection #290
+- registration redirect per membership level #296
+- #293 quotes 
+- redesigned payment modules and arranged/renamed organized all hooks, added new hooks for payment addition process
+- #307 issue update extra hook to process
+- backward compatibility for  old messages saved in database #313
+- redesigned payment modules with transaction logging feature, a dashboard to list transactions is pending
+- added messages/template in database templates table for data resroration and data stability
+- added new photo type user field ( experimental)
+- added new roles and capability management inside MGM 
+- redesigned custom fields and user tags
+- fixed subscription display
+- fixed recreation of cron and show admin notice if not installed
+- fixed payment module bugs ( sagepay, ccbill)
+- added allow renewal to block cheating with Trial module extending without pay
+- fixed trial/free module registration with zero cost and erroneous display of inactive payment modules
+- added auto tags for custom userfields
+- added design filter for applying custom design to user register/profile
+- fixed duplicate coupon issue
+- added coupon support in PPP purchase
+
+Version 1.6, Build 2.2.5
+----------------------------------------------
+- Architecture change in class/object caching.
+- added s3 file download capabilty, s3 url should be added in download module.
+
+
+
+Version 1.7.44, Build 2.6.0
+----------------------------------------------
+API released
+
+Version 1.8.23, Build 2.7.0
+----------------------------------------------
+- Splitting and organizing Cron process with user meta query, 
+- Tools tabs to run CRON processes as well regular stats
+- Adding user meta query search via sync member data to usermeta
+- Adding module development and loading via external plugin
+- Added new filters for registration emails 
+- Added post meta query search via sync post data to postmeta
+- Added member search by transaction id and module, fixed status search
+
+Version 1.8.24, Build 2.7.0
+--------------------------------------------------
+- updated dahboard stat widget to load via ajax to speed up as well use wp cache instead of cron, 
+  removed cron for the same to save cron process overhead
+- added new attribute for autoresponder to auto check
+- added two new input type for custom fields, "Checkbox Group" which will accept multiple values and "Multiple Select"  
+  current Checkbox type will be downgraded to output only single element and accept single value ( on / off ) in later release
+- fix paypal standard for rebill with trial duration if trial pack used
+- fixed lang issue in mostly in modules with line feed "\r" character
+- fixed version compare in migrate data to use minor migration versions  
+- fixed serialized data in custom fields disaply in public member search and list
+
+Version 1.8.25, Build 2.7.0
+--------------------------------------------------  
+- fixed user by coupon query
+- fixed api members custom fields data display
+
+Version 1.8.26, Build 2.7.0
+--------------------------------------------------  
+- fixed [user_login] pre process calling on admin
+- fixed login page display at logged in status
+- added page hide using page by path based on logged in state
+- fixed email confirm not set error
+- added new datepicker field
+
+Version 1.8.27, Build 2.7.0
+--------------------------------------------------  
+
+
+Version 1.8.28, Build 2.7.1
+-------------------------------------------------- 
+- fixed pagseguro itemdescription limit issue
+- added new filter to autoresponder set extra postfields to alter autorespoder data using a plugin
+
+Version 1.8.29, Build 2.7.1
+--------------------------------------------------
+- set email filters, from name, from email on mm scope, will not affect other mail programs
+- fixed all register pages, widgets to consider "no register" setting in Wordpress general settings.
+- allow global affect in email filters setting
+- added option to hide subscription pack if single package selected
+- fixed message in membership details page for awaiting cancelled
+
+Version 1.8.30, Build 2.7.1
+--------------------------------------------------
+-- recoded export coupon using user read filter
+
+Version 1.8.31, Build 2.8.0
+--------------------------------------------------
+- centralised email notifier for all payment modules
+- add email notify on rebill status change
+- added rebill tracking for magicaffiliates via rebill status change
+- fixed multiple issues
+- fixed type in settings
+- fixed cancel process in epoch as well misplaced rebill status query
+- fixed duplicate unsubscribe buttons in [membership_details] shortcode
+- added logo in cc forms 
+- rename all content id to mgmcontent to avoid any clash
+- fixed double billing in Eway by checking pre auth conditionally
+- fixed paypal payflow rebill query issue, rebill start date will be pushed to next cycle if authorization successful
+  one time rebill will not trigger any rebill status query
+- payment module filter for post purchase & postpack purchase 
+
+
+Version 1.8.32, Build 2.8.0
+--------------------------------------------------
+- fixed jQuery UI incompatibity with WP 3.6
+- fixed paypalpayflow create profile only after a successful payment
+- compatibility tested, compatible upto WP 3.1, WP < 3.0 not supported
+
+
+Version 1.8.36, Build 2.8.0
+--------------------------------------------------
+- fixed module selection in subscription purchase, renew, upgrade and another purchase
+- fixed module selection in post purchase 
+
+Version 1.8.37, Build 2.8.0
+--------------------------------------------------
+- fixed post pack purchase issue
+
+Version 1.8.38, Build 2.8.0
+-------------------------------------------------
+- added multiple logins per membership level restriction feature
+
+
+Version 1.8.39, Build 2.8.0
+-------------------------------------------------
+- fixed rss load by token, sync done for rss token in usermeta
+
+
+Version 1.8.44, Build 2.8.1
+-------------------------------------------------
+- added custom fields display and save for new user screen on admin
+- added tracking for heavy data import in CLI
+
+Version 1.8.45, Build 2.8.1
+-------------------------------------------------
+- fix for WP 4.0 on register 
+- add new user hook for custom fields
+
+ 
+Version 1.8.46, Build 2.8.1
+-------------------------------------------------
+- fix datepicker field display on user edit
+- fix default field display on user register/profile form
+- add admin_only flag for custom fields
+
+
+Version 1.8.47, Build 2.8.1
+-------------------------------------------------
+
+
+Version 1.8.48, Build 2.8.2
+-------------------------------------------------
+- fix stripe upgrade
+
+Version 1.8.49, Build 2.8.3
+-------------------------------------------------
+- add new licence server
+- fixed auto login issue for stripe
+- fixed expire check delay for stripe ( 1 day ) so that rebill check happen 1 day after expire date, 
+  allows 24 hour delay in receiving stripe notify
+- fixed bug in stripe module cancel webhook
+- fixed bug in authorize.net arb silent post parse
+- fixed bug in variables definiation in core payment class
+- fixed rebill status check for supported modules ( stripe, authorize.net, payflow and eway) via cron. Sync of usermeta
+  key rebill status done for the fix.
+
+Version 1.8.50, Build 2.8.3
+--------------------------------------------------
+-- fixed several issues
+
+Version 1.8.50, Build 2.8.3
+--------------------------------------------------
+-- fixed multiple duplicate user fetch by cron expire check
+-- fixed notify past_due for stripe in updated event
+-- fixed expire check delay issue for CCBill
+-- added more control to expire check delay in CCBill and Stripe
+-- fixed feed protection with new filter in wp 4.1.1+
+
+Version 1.8.51, Build 2.8.4
+--------------------------------------------------
+[user_public_profile user_id=?] to allow create user wise page/post and use individual profile via short code
+added filter to customer user public profile, recoded output for better performance
+added filter to change register and other link text via hooks
+added filter for each register field label so that it can be controlled programmatically by other plugins
+added dismiss button for batch upgrader
+added notify for reactivate subscription in ccbill
+added settings for rebill delay and hooks adjusted ( fixed value by module earlier, ccbill and stripe must be watched after release )
+fixed email template for register notification, missing name
+
+Version 1.8.52, Build 2.8.4
+--------------------------------------------------
+-- added laoding of translation file from default wp lang dir, user can copy translation files in 
+   wp-content/languages/plugins/ which will be loaded if present
+
+Version 1.8.57, Build 2.8.4
+--------------------------------------------------
+
+Version 1.8.58, Build 2.8.4
+--------------------------------------------------    
+
+Version 1.8.59, Build 2.8.5
+--------------------------------------------------   
+-- fixed multiple membership cancel in paypal
+-- added cancel check using status notify in paypal
+-- fixed cancel stats save and process via database in epoch
+-- fixed mysql dependency check using wp standards
+-- fixed mailchimp and other autoresponder unsubscribe to correct list by membership type
+-- added new awaiting cancel status member process cron
+-- rewritten and simplified cron methods reducing multiple level callbacks 
+-- added new product_guid for license checking
+-- creating trial and validation
+-- https for license and magicmembers.com support links 
+
+
+Version 1.8.60, Build 2.8.5
+--------------------------------------------------
+-- fix report amount issue for payment history   
+-- fix for CCBill to dynamicaly using Signup or Upgrade API
+
+
+
+
+
+
+ 
+
+
+
+
+
+

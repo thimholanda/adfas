@@ -1,0 +1,45 @@
+
+1. [2017-06-21 14:37:09 UTC]: 
+----------------------------------------------------------------------------------------------------
+pagseguro process_return POST DATA:<pre>Array
+(
+    [VendedorEmail] => contato@adfas.com.br
+    [TransacaoID] => 20AEE58A310F44F9A11610A591507C7D
+    [Referencia] => 
+    [Extras] => 0,00
+    [TipoFrete] => FR
+    [ValorFrete] => 0,00
+    [Anotacao] => 
+    [DataTransacao] => 08/06/2017 18:44:33
+    [TipoPagamento] => Pagamento
+    [StatusTransacao] => Devolvido
+    [CliNome] => Los Patinhos
+    [CliEmail] => heliofoliveira@hotmail.com
+    [CliEndereco] => AVENIDA PRESTES MAIA 241 - EDIFICIO MIRANTE DO VALE
+    [CliNumero] => cj2627
+    [CliComplemento] => 
+    [CliBairro] => Centro
+    [CliCidade] => SAO PAULO
+    [CliEstado] => SP
+    [CliCEP] => 01031902
+    [CliTelefone] => 11 31047752
+    [NumItens] => 1
+    [Parcelas] => 1
+    [ProdID_1] => 1405798711224
+    [ProdDescricao_1] => Anuidade Pessoa Física
+    [ProdValor_1] => 250,00
+    [ProdQuantidade_1] => 1
+    [ProdFrete_1] => 0,00
+    [ProdExtras_1] => 0,00
+)
+</pre>
+
+2. [2017-06-21 14:37:09 UTC]: 
+----------------------------------------------------------------------------------------------------
+pagseguro process_return GET DATA:<pre>Array
+(
+    [module] => mgm_pagseguro
+    [method] => payment_return
+)
+</pre>
+

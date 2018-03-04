@@ -1,0 +1,97 @@
+
+1. [2017-07-13 16:23:05 UTC]: 
+----------------------------------------------------------------------------------------------------
+SELECT SQL_CALC_FOUND_ROWS * FROM `wp_users` 
+		        WHERE ID NOT IN (1)   ORDER BY ID DESC  LIMIT 0, 100
+
+2. [2017-07-13 16:23:05 UTC]: 
+----------------------------------------------------------------------------------------------------
+Array
+(
+    [0] => stdClass Object
+        (
+            [ID] => 7
+            [user_login] => mdeamon
+            [user_pass] => $P$BpkxOFBJIw.PNxwsPVDodZn22le9.e0
+            [user_nicename] => mdeamon
+            [user_email] => sm@hotmail.com
+            [user_url] => 
+            [user_registered] => 2017-07-13 15:55:22
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => mdeamon
+        )
+
+    [1] => stdClass Object
+        (
+            [ID] => 6
+            [user_login] => douglasb
+            [user_pass] => $P$BZQzHZ8PplaeqqkwmEh1/53m4N.n9o1
+            [user_nicename] => douglasb
+            [user_email] => douglascorreiasf2016@gmail.com
+            [user_url] => 
+            [user_registered] => 2017-07-13 13:43:22
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => douglasb
+        )
+
+    [2] => stdClass Object
+        (
+            [ID] => 5
+            [user_login] => douglasc
+            [user_pass] => $P$BWrCaE3RRKp3Ba1RH0VZ.uDv2CKk5l1
+            [user_nicename] => douglasc
+            [user_email] => dcorreya13@hotmail.com
+            [user_url] => 
+            [user_registered] => 2017-07-13 13:38:17
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => douglasc
+        )
+
+    [3] => stdClass Object
+        (
+            [ID] => 4
+            [user_login] => Bruno
+            [user_pass] => $P$B24rlw.lJzns.MkIW5Cr6PTMjYGR0T.
+            [user_nicename] => bruno
+            [user_email] => avila.borgarelli@gmail.com
+            [user_url] => 
+            [user_registered] => 2017-07-12 19:24:24
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => Bruno
+        )
+
+    [4] => stdClass Object
+        (
+            [ID] => 3
+            [user_login] => Douglas
+            [user_pass] => $P$BD4PPr/.EBcIBu7QYi3wUVYPF.LMQd0
+            [user_nicename] => douglas
+            [user_email] => douglas@adfas.org.br
+            [user_url] => 
+            [user_registered] => 2017-07-12 17:54:59
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => Douglas
+        )
+
+    [5] => stdClass Object
+        (
+            [ID] => 2
+            [user_login] => smallsuporte
+            [user_pass] => $P$BHQInsZUonPyNWmFgE3naAXkfDm7jW0
+            [user_nicename] => smallsuporte
+            [user_email] => mateus@agenciasmall.com.br
+            [user_url] => 
+            [user_registered] => 2017-07-10 18:51:07
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => smallsuporte
+        )
+
+)
+
+

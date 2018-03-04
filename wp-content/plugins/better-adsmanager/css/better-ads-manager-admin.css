@@ -1,0 +1,48 @@
+
+
+.bf-section-repeater-option[data-id=ad_post_inline] > .bf-explain{
+    margin-top: -15px;
+}
+
+
+
+.bf-repeater-item .bf-section-container.better-enable-field{
+    width: 27%;
+}
+.bf-section-container.better-enable-field{
+    width: 33.333%;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bf-section-container.better-enable-field .bf-heading{
+    width: 100% !important;
+    float: none !important;
+    margin-bottom: 10px;
+}
+.bf-section-container.better-enable-field .bf-controls{
+    width: 100% !important;
+    float: none !important;
+}
+
+.bf-section-container.bf-metabox.better-enable-field .bf-section .bf-heading h3 label{
+    font-size: 11px;
+}
+
+
+#better-ads .vc_element-icon,
+.wpb_better-ads .vc_element-icon{
+    width: 60px !important;
+    height: 44px !important;
+}
+#better-ads{
+    padding-left: 78px;
+}
+#better-ads .vc_element-icon{
+    top: 14px;
+}
+#better-ads .vc_element-icon,
+.wpb_better-ads .vc_element-icon {
+    background: url("../images/vc-better-ads.png");
+}

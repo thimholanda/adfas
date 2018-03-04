@@ -1,0 +1,21 @@
+
+3. [2018-01-05 01:30:31 UTC]: 
+----------------------------------------------------------------------------------------------------
+notification_url: https://ws.pagseguro.uol.com.br/v2/transactions/notifications/DA5E98-4BD308D308A8-06649C6F9E63-8F3002/?email=contato@adfas.com.br&token=9F4D309279144124ADE2B1C98FE9A4AF
+
+4. [2018-01-05 01:30:31 UTC]: 
+----------------------------------------------------------------------------------------------------
+http_response: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><transaction><date>2018-01-04T23:27:53.000-02:00</date><code>55163E42-8E40-430C-B02E-90B7552130D6</code><reference>92</reference><type>1</type><status>3</status><lastEventDate>2018-01-04T23:30:29.000-02:00</lastEventDate><paymentMethod><type>1</type><code>101</code></paymentMethod><grossAmount>30.00</grossAmount><discountAmount>0.00</discountAmount><feeAmount>1.90</feeAmount><netAmount>28.10</netAmount><extraAmount>0.00</extraAmount><escrowEndDate>2018-01-18T23:30:29.000-02:00</escrowEndDate><installmentCount>1</installmentCount><itemCount>1</itemCount><items><item><id>6</id><description>ADFAS :: Associação de Direito de Família e das Sucessões Associado -  PESSOA FÍSICA Inscriçã</description><quantity>1</quantity><amount>30.00</amount></item></items><sender><name>DANILO M OLIVEIRA</name><email>danilo@danilomendes.adv.br</email><phone><areaCode>86</areaCode><number>988548853</number></phone></sender><shipping><address><street>RUA PROFESSOR PIRES GAYOSO</street><number>583</number><complement>589</complement><district>Noivos</district><city>TERESINA</city><state>PI</state><country>BRA</country><postalCode>64046350</postalCode></address><type>3</type><cost>0.00</cost></shipping></transaction>
+
+5. [2018-01-05 01:30:31 UTC]: 
+----------------------------------------------------------------------------------------------------
+PagSeguro IPN : processed :Array
+(
+    [code] => 55163E42-8E40-430C-B02E-90B7552130D6
+    [custom] => 92
+    [type] => 1
+    [status] => 3
+    [status_code] => Paid
+)
+
+

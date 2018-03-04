@@ -1,0 +1,21 @@
+
+3. [2018-01-30 12:33:02 UTC]: 
+----------------------------------------------------------------------------------------------------
+notification_url: https://ws.pagseguro.uol.com.br/v2/transactions/notifications/7CB6DE-2AC032C0324B-80046B7F940B-11D074/?email=contato@adfas.com.br&token=9F4D309279144124ADE2B1C98FE9A4AF
+
+4. [2018-01-30 12:33:02 UTC]: 
+----------------------------------------------------------------------------------------------------
+http_response: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><transaction><date>2018-01-16T10:31:13.000-02:00</date><code>3D59BF4F-7EBA-4A98-9038-E0CAB988A197</code><reference>97</reference><type>1</type><status>4</status><lastEventDate>2018-01-30T10:33:07.000-02:00</lastEventDate><paymentMethod><type>1</type><code>101</code></paymentMethod><grossAmount>30.00</grossAmount><discountAmount>0.00</discountAmount><feeAmount>1.90</feeAmount><netAmount>28.10</netAmount><extraAmount>0.00</extraAmount><escrowEndDate>2018-01-30T10:32:49.000-02:00</escrowEndDate><installmentCount>1</installmentCount><itemCount>1</itemCount><items><item><id>6</id><description>ADFAS :: Associação de Direito de Família e das Sucessões Associado -  PESSOA FÍSICA Inscriçã</description><quantity>1</quantity><amount>30.00</amount></item></items><sender><name>EDUARDO G AMORIM</name><email>eduardo@igfadvogados.com.br</email><phone><areaCode>66</areaCode><number>996079944</number></phone></sender><shipping><address><street>RUA LINDA FERREIRA DA ROSA</street><number>80</number><complement></complement><district>Perdizes</district><city>SAO PAULO</city><state>SP</state><country>BRA</country><postalCode>05010030</postalCode></address><type>3</type><cost>0.00</cost></shipping></transaction>
+
+5. [2018-01-30 12:33:02 UTC]: 
+----------------------------------------------------------------------------------------------------
+PagSeguro IPN : processed :Array
+(
+    [code] => 3D59BF4F-7EBA-4A98-9038-E0CAB988A197
+    [custom] => 97
+    [type] => 1
+    [status] => 4
+    [status_code] => Available
+)
+
+

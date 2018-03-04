@@ -1,0 +1,21 @@
+
+3. [2017-07-27 10:59:11 UTC]: 
+----------------------------------------------------------------------------------------------------
+notification_url: https://ws.pagseguro.uol.com.br/v2/transactions/notifications/1E348A-1786008600AD-8CC4A5BF98A9-832248/?email=contato@adfas.com.br&token=9F4D309279144124ADE2B1C98FE9A4AF
+
+4. [2017-07-27 10:59:13 UTC]: 
+----------------------------------------------------------------------------------------------------
+http_response: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><transaction><date>2017-07-12T16:24:45.000-03:00</date><code>ED3DDA5A-D53F-4D88-9590-7184034C2DBB</code><reference>3</reference><type>1</type><status>7</status><cancellationSource>INTERNAL</cancellationSource><lastEventDate>2017-07-27T07:59:00.000-03:00</lastEventDate><paymentMethod><type>2</type><code>202</code></paymentMethod><paymentLink>https://pagseguro.uol.com.br/checkout/payment/booklet/print.jhtml?c=15f21cddb05099ffa12c3d367899d8cdb94adf8b71e4f86c9fe38a836e902020963153c5da703ac3</paymentLink><grossAmount>30.00</grossAmount><discountAmount>0.00</discountAmount><feeAmount>1.90</feeAmount><netAmount>28.10</netAmount><extraAmount>0.00</extraAmount><installmentCount>1</installmentCount><itemCount>1</itemCount><items><item><id>6</id><description>ADFAS :: Associação de Direito de Família e das Sucessões Associado -  PESSOA FÍSICA Inscriçã</description><quantity>1</quantity><amount>30.00</amount></item></items><sender><name>Bruno de Ávila Borgarelli</name><email>avila.borgarelli@gmail.com</email><phone><areaCode>11</areaCode><number>941288097</number></phone></sender><shipping><address><street>RUA GABRIEL DOS SANTOS</street><number>88</number><complement></complement><district>Santa Cecília</district><city>SAO PAULO</city><state>SP</state><country>BRA</country><postalCode>01231011</postalCode></address><type>3</type><cost>0.00</cost></shipping></transaction>
+
+5. [2017-07-27 10:59:13 UTC]: 
+----------------------------------------------------------------------------------------------------
+PagSeguro IPN : processed :Array
+(
+    [code] => ED3DDA5A-D53F-4D88-9590-7184034C2DBB
+    [custom] => 3
+    [type] => 1
+    [status] => 7
+    [status_code] => Cancelled
+)
+
+

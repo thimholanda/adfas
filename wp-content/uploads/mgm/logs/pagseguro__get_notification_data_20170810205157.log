@@ -1,0 +1,21 @@
+
+3. [2017-08-10 20:51:58 UTC]: 
+----------------------------------------------------------------------------------------------------
+notification_url: https://ws.pagseguro.uol.com.br/v2/transactions/notifications/9BA929-BC119F119FD8-4884D2FF9605-4547EF/?email=contato@adfas.com.br&token=9F4D309279144124ADE2B1C98FE9A4AF
+
+4. [2017-08-10 20:52:00 UTC]: 
+----------------------------------------------------------------------------------------------------
+http_response: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><transaction><date>2017-07-27T17:44:33.000-03:00</date><code>A9320BA1-F82A-416D-A3E1-6553D1AF39E9</code><reference>28</reference><type>1</type><status>4</status><lastEventDate>2017-08-10T17:51:30.000-03:00</lastEventDate><paymentMethod><type>1</type><code>102</code></paymentMethod><grossAmount>13.94</grossAmount><discountAmount>0.00</discountAmount><feeAmount>1.10</feeAmount><netAmount>12.84</netAmount><extraAmount>0.00</extraAmount><escrowEndDate>2017-08-10T17:48:46.000-03:00</escrowEndDate><installmentCount>1</installmentCount><itemCount>1</itemCount><items><item><id>7</id><description>ADFAS :: Associação de Direito de Família e das Sucessões Associado - ESTUDANTE Inscrição</description><quantity>1</quantity><amount>13.94</amount></item></items><sender><name>Vanessa Ferreira</name><email>gilvan@decidir.com.br</email><phone><areaCode>11</areaCode><number>981932085</number></phone></sender><shipping><address><street>RUA BOA ESPERANCA</street><number>78</number><complement></complement><district>Chácara Santo Antônio Zona Leste</district><city>SAO PAULO</city><state>SP</state><country>BRA</country><postalCode>03408000</postalCode></address><type>3</type><cost>0.00</cost></shipping></transaction>
+
+5. [2017-08-10 20:52:00 UTC]: 
+----------------------------------------------------------------------------------------------------
+PagSeguro IPN : processed :Array
+(
+    [code] => A9320BA1-F82A-416D-A3E1-6553D1AF39E9
+    [custom] => 28
+    [type] => 1
+    [status] => 4
+    [status_code] => Available
+)
+
+

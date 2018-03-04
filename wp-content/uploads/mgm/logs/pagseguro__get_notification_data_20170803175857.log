@@ -1,0 +1,21 @@
+
+3. [2017-08-03 17:58:57 UTC]: 
+----------------------------------------------------------------------------------------------------
+notification_url: https://ws.pagseguro.uol.com.br/v2/transactions/notifications/FF5F79-72A575A57584-D7747A4F8907-E07A36/?email=contato@adfas.com.br&token=9F4D309279144124ADE2B1C98FE9A4AF
+
+4. [2017-08-03 17:58:59 UTC]: 
+----------------------------------------------------------------------------------------------------
+http_response: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><transaction><date>2017-08-03T14:56:09.000-03:00</date><code>FD811FE9-B24F-4FC9-9FE5-8AD351776C62</code><reference>39</reference><type>1</type><status>3</status><lastEventDate>2017-08-03T14:58:49.000-03:00</lastEventDate><paymentMethod><type>1</type><code>102</code></paymentMethod><grossAmount>30.00</grossAmount><discountAmount>0.00</discountAmount><feeAmount>1.90</feeAmount><netAmount>28.10</netAmount><extraAmount>0.00</extraAmount><escrowEndDate>2017-08-17T14:58:50.000-03:00</escrowEndDate><installmentCount>1</installmentCount><itemCount>1</itemCount><items><item><id>6</id><description>ADFAS :: Associação de Direito de Família e das Sucessões Associado -  PESSOA FÍSICA Inscriçã</description><quantity>1</quantity><amount>30.00</amount></item></items><sender><name>AMANDA O S VALENTIM</name><email>amanda@santosmenezes.com.br</email><phone><areaCode>11</areaCode><number>938056602</number></phone></sender><shipping><address><street>AVENIDA BRIGADEIRO FARIA LIMA</street><number>1993</number><complement>Conjunto 94</complement><district>Jardim Paulistano</district><city>SAO PAULO</city><state>SP</state><country>BRA</country><postalCode>01452001</postalCode></address><type>3</type><cost>0.00</cost></shipping></transaction>
+
+5. [2017-08-03 17:58:59 UTC]: 
+----------------------------------------------------------------------------------------------------
+PagSeguro IPN : processed :Array
+(
+    [code] => FD811FE9-B24F-4FC9-9FE5-8AD351776C62
+    [custom] => 39
+    [type] => 1
+    [status] => 3
+    [status_code] => Paid
+)
+
+

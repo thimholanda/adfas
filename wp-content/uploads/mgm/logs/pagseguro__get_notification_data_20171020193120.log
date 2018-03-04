@@ -1,0 +1,21 @@
+
+3. [2017-10-20 19:31:20 UTC]: 
+----------------------------------------------------------------------------------------------------
+notification_url: https://ws.pagseguro.uol.com.br/v2/transactions/notifications/8BEEBC-F1B0AEB0AE56-D66449CF9B59-8EBF3E/?email=contato@adfas.com.br&token=9F4D309279144124ADE2B1C98FE9A4AF
+
+4. [2017-10-20 19:31:22 UTC]: 
+----------------------------------------------------------------------------------------------------
+http_response: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><transaction><date>2017-10-20T17:21:16.000-02:00</date><code>C65E3B56-8DF4-4336-9668-EC39BF46810E</code><reference>69</reference><type>1</type><status>3</status><lastEventDate>2017-10-20T17:31:08.000-02:00</lastEventDate><paymentMethod><type>1</type><code>102</code></paymentMethod><grossAmount>13.94</grossAmount><discountAmount>0.00</discountAmount><feeAmount>1.10</feeAmount><netAmount>12.84</netAmount><extraAmount>0.00</extraAmount><escrowEndDate>2017-11-03T17:31:08.000-02:00</escrowEndDate><installmentCount>1</installmentCount><itemCount>1</itemCount><items><item><id>7</id><description>ADFAS :: Associação de Direito de Família e das Sucessões Associado - ESTUDANTE Inscrição</description><quantity>1</quantity><amount>13.94</amount></item></items><sender><name>Catia C Oliveira</name><email>catia.oliver.adv@outlook.com</email><phone><areaCode>11</areaCode><number>975314581</number></phone></sender><shipping><address><street>RUA DOS ANTURIOS</street><number>213</number><complement></complement><district>Centro</district><city>SAO BERNARDO DO CAMPO</city><state>SP</state><country>BRA</country><postalCode>09720520</postalCode></address><type>3</type><cost>0.00</cost></shipping></transaction>
+
+5. [2017-10-20 19:31:22 UTC]: 
+----------------------------------------------------------------------------------------------------
+PagSeguro IPN : processed :Array
+(
+    [code] => C65E3B56-8DF4-4336-9668-EC39BF46810E
+    [custom] => 69
+    [type] => 1
+    [status] => 3
+    [status_code] => Paid
+)
+
+

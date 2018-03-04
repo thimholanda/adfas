@@ -1,0 +1,21 @@
+
+3. [2018-01-04 17:09:10 UTC]: 
+----------------------------------------------------------------------------------------------------
+notification_url: https://ws.pagseguro.uol.com.br/v2/transactions/notifications/D74D48-8ED002D00275-6BB471AF9CCB-442A04/?email=contato@adfas.com.br&token=9F4D309279144124ADE2B1C98FE9A4AF
+
+4. [2018-01-04 17:09:10 UTC]: 
+----------------------------------------------------------------------------------------------------
+http_response: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><transaction><date>2017-12-21T15:03:59.000-02:00</date><code>74F90C63-D730-43CD-BF32-E9A6B2F54A59</code><reference>90</reference><type>1</type><status>4</status><lastEventDate>2018-01-04T15:09:08.000-02:00</lastEventDate><paymentMethod><type>1</type><code>102</code></paymentMethod><grossAmount>30.00</grossAmount><discountAmount>0.00</discountAmount><feeAmount>1.90</feeAmount><netAmount>28.10</netAmount><extraAmount>0.00</extraAmount><escrowEndDate>2018-01-04T15:08:10.000-02:00</escrowEndDate><installmentCount>1</installmentCount><itemCount>1</itemCount><items><item><id>6</id><description>ADFAS :: Associação de Direito de Família e das Sucessões Associado -  PESSOA FÍSICA Inscriçã</description><quantity>1</quantity><amount>30.00</amount></item></items><sender><name>Paulo E F Arruda</name><email>parrudajuridico@terra.com.br</email><phone><areaCode>11</areaCode><number>976568806</number></phone></sender><shipping><address><street>RUA FUNCHAL</street><number>573</number><complement>CJ 71</complement><district>Vila Olímpia</district><city>SAO PAULO</city><state>SP</state><country>BRA</country><postalCode>04551060</postalCode></address><type>3</type><cost>0.00</cost></shipping></transaction>
+
+5. [2018-01-04 17:09:10 UTC]: 
+----------------------------------------------------------------------------------------------------
+PagSeguro IPN : processed :Array
+(
+    [code] => 74F90C63-D730-43CD-BF32-E9A6B2F54A59
+    [custom] => 90
+    [type] => 1
+    [status] => 4
+    [status_code] => Available
+)
+
+

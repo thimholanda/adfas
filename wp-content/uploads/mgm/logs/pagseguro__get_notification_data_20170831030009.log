@@ -1,0 +1,21 @@
+
+3. [2017-08-31 03:00:09 UTC]: 
+----------------------------------------------------------------------------------------------------
+notification_url: https://ws.pagseguro.uol.com.br/v2/transactions/notifications/3262F4-687A767A7686-4FF4278F84AC-C9BFF9/?email=contato@adfas.com.br&token=9F4D309279144124ADE2B1C98FE9A4AF
+
+4. [2017-08-31 03:00:11 UTC]: 
+----------------------------------------------------------------------------------------------------
+http_response: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><transaction><date>2017-08-23T17:15:47.000-03:00</date><code>0F0196ED-CB37-42FC-ABC6-A16F32AA8B67</code><reference>53</reference><type>1</type><status>7</status><cancellationSource>INTERNAL</cancellationSource><lastEventDate>2017-08-31T00:00:02.000-03:00</lastEventDate><paymentMethod><type>7</type><code>701</code></paymentMethod><grossAmount>142.80</grossAmount><discountAmount>0.00</discountAmount><feeAmount>7.53</feeAmount><netAmount>135.27</netAmount><extraAmount>0.00</extraAmount><installmentCount>1</installmentCount><itemCount>1</itemCount><items><item><id>3</id><description>ADFAS :: Associação de Direito de Família e das Sucessões Associado - ESTUDANTE Inscrição</description><quantity>1</quantity><amount>142.80</amount></item></items><sender><name>Maugeri dos Santos Sá</name><email>maugeri53@hotmail.com</email><phone><areaCode>53</areaCode><number>32428036</number></phone></sender><shipping><address><street>RUA VINTE E QUATRO DE MAIO</street><number>280</number><complement>direita</complement><district>Centro</district><city>BAGE</city><state>RS</state><country>BRA</country><postalCode>96400690</postalCode></address><type>3</type><cost>0.00</cost></shipping></transaction>
+
+5. [2017-08-31 03:00:11 UTC]: 
+----------------------------------------------------------------------------------------------------
+PagSeguro IPN : processed :Array
+(
+    [code] => 0F0196ED-CB37-42FC-ABC6-A16F32AA8B67
+    [custom] => 53
+    [type] => 1
+    [status] => 7
+    [status_code] => Cancelled
+)
+
+

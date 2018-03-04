@@ -1,0 +1,18 @@
+
+1. [2017-07-12 17:59:07 UTC]: 
+----------------------------------------------------------------------------------------------------
+pagseguro process_return POST DATA:<pre>Array
+(
+)
+</pre>
+
+2. [2017-07-12 17:59:07 UTC]: 
+----------------------------------------------------------------------------------------------------
+pagseguro process_return GET DATA:<pre>Array
+(
+    [module] => mgm_pagseguro
+    [method] => payment_return
+    [tran_id] => 12EABA5A-6ABF-4884-AB0F-4DD9331585A6
+)
+</pre>
+

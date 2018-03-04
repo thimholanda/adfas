@@ -1,0 +1,21 @@
+
+3. [2017-10-25 15:09:18 UTC]: 
+----------------------------------------------------------------------------------------------------
+notification_url: https://ws.pagseguro.uol.com.br/v2/transactions/notifications/6988FF-73ACFFACFF63-66640B4F9DD6-DFD8A1/?email=contato@adfas.com.br&token=9F4D309279144124ADE2B1C98FE9A4AF
+
+4. [2017-10-25 15:09:20 UTC]: 
+----------------------------------------------------------------------------------------------------
+http_response: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><transaction><date>2017-10-25T13:04:49.000-02:00</date><code>FABCD2CB-DAE3-4533-8B16-AD86758C65AA</code><reference>71</reference><type>1</type><status>3</status><lastEventDate>2017-10-25T13:09:04.000-02:00</lastEventDate><paymentMethod><type>1</type><code>102</code></paymentMethod><grossAmount>298.80</grossAmount><discountAmount>0.00</discountAmount><feeAmount>15.31</feeAmount><netAmount>283.49</netAmount><extraAmount>0.00</extraAmount><escrowEndDate>2017-11-08T13:09:04.000-02:00</escrowEndDate><installmentCount>1</installmentCount><itemCount>1</itemCount><items><item><id>4</id><description>ADFAS :: Associação de Direito de Família e das Sucessões Associado -  PESSOA FÍSICA Inscriçã</description><quantity>1</quantity><amount>298.80</amount></item></items><sender><name>CHARLES A G LEITE</name><email>charlesagl@hotmail.com</email><phone><areaCode>79</areaCode><number>991580822</number></phone></sender><shipping><address><street>AVENIDA RIO BRANCO</street><number>186</number><complement>AP. 122</complement><district>Centro</district><city>ARACAJU</city><state>SE</state><country>BRA</country><postalCode>49010030</postalCode></address><type>3</type><cost>0.00</cost></shipping></transaction>
+
+5. [2017-10-25 15:09:20 UTC]: 
+----------------------------------------------------------------------------------------------------
+PagSeguro IPN : processed :Array
+(
+    [code] => FABCD2CB-DAE3-4533-8B16-AD86758C65AA
+    [custom] => 71
+    [type] => 1
+    [status] => 3
+    [status_code] => Paid
+)
+
+

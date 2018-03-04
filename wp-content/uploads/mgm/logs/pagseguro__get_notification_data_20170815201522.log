@@ -1,0 +1,21 @@
+
+3. [2017-08-15 20:15:22 UTC]: 
+----------------------------------------------------------------------------------------------------
+notification_url: https://ws.pagseguro.uol.com.br/v2/transactions/notifications/4AFC25-09ACD8ACD86D-DAA4926F8C57-E0C581/?email=contato@adfas.com.br&token=9F4D309279144124ADE2B1C98FE9A4AF
+
+4. [2017-08-15 20:15:24 UTC]: 
+----------------------------------------------------------------------------------------------------
+http_response: <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><transaction><date>2017-08-01T17:10:36.000-03:00</date><code>C763BF83-587D-4DAD-864D-F87233ADB5B8</code><reference>35</reference><type>1</type><status>4</status><lastEventDate>2017-08-15T17:15:20.000-03:00</lastEventDate><paymentMethod><type>1</type><code>102</code></paymentMethod><grossAmount>298.80</grossAmount><discountAmount>0.00</discountAmount><feeAmount>15.31</feeAmount><netAmount>283.49</netAmount><extraAmount>0.00</extraAmount><escrowEndDate>2017-08-15T17:12:14.000-03:00</escrowEndDate><installmentCount>1</installmentCount><itemCount>1</itemCount><items><item><id>4</id><description>ADFAS :: Associação de Direito de Família e das Sucessões Associado -  PESSOA FÍSICA Inscriçã</description><quantity>1</quantity><amount>298.80</amount></item></items><sender><name>ANDRE NAMORATO</name><email>andrenamorato@gmail.com</email><phone><areaCode>12</areaCode><number>91218999</number></phone></sender><shipping><address><street>RUA MINISTRO GODOI</street><number>1336</number><complement></complement><district>Perdizes</district><city>SAO PAULO</city><state>SP</state><country>BRA</country><postalCode>05015001</postalCode></address><type>3</type><cost>0.00</cost></shipping></transaction>
+
+5. [2017-08-15 20:15:24 UTC]: 
+----------------------------------------------------------------------------------------------------
+PagSeguro IPN : processed :Array
+(
+    [code] => C763BF83-587D-4DAD-864D-F87233ADB5B8
+    [custom] => 35
+    [type] => 1
+    [status] => 4
+    [status_code] => Available
+)
+
+

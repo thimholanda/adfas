@@ -1,0 +1,19 @@
+
+1. [2017-08-31 03:00:09 UTC]: 
+----------------------------------------------------------------------------------------------------
+pagseguro process_notify POST DATA:<pre>Array
+(
+    [notificationCode] => 3262F4-687A767A7686-4FF4278F84AC-C9BFF9
+    [notificationType] => transaction
+)
+</pre>
+
+2. [2017-08-31 03:00:09 UTC]: 
+----------------------------------------------------------------------------------------------------
+pagseguro process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_pagseguro
+    [method] => payment_notify
+)
+</pre>
+

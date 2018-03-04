@@ -1,0 +1,41 @@
+
+1. [2018-01-26 17:50:12 UTC]: 
+----------------------------------------------------------------------------------------------------
+SELECT SQL_CALC_FOUND_ROWS * FROM `wp_users` 
+		        WHERE ID NOT IN (1)  AND `ID` IN (63,80)  ORDER BY user_login DESC  LIMIT 0, 100
+
+2. [2018-01-26 17:50:12 UTC]: 
+----------------------------------------------------------------------------------------------------
+Array
+(
+    [0] => stdClass Object
+        (
+            [ID] => 63
+            [user_login] => sergiomatheusgarcez
+            [user_pass] => $P$BdQP6VcQAT5PaJsPx7aUV2LQGbVhRi.
+            [user_nicename] => sergiomatheusgarcez
+            [user_email] => sergiomatheusgarcez@gmail.com
+            [user_url] => 
+            [user_registered] => 2017-09-03 20:39:53
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => sergiomatheusgarcez
+        )
+
+    [1] => stdClass Object
+        (
+            [ID] => 80
+            [user_login] => Sergio
+            [user_pass] => $P$B3k7Y4jFw/mlyYdxkKrWM0YkhGqLDS.
+            [user_nicename] => sergio
+            [user_email] => sergio@fernandeschaves.com.br
+            [user_url] => 
+            [user_registered] => 2017-10-25 16:27:29
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => Sergio
+        )
+
+)
+
+

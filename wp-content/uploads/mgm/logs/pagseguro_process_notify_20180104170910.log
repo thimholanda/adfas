@@ -1,0 +1,19 @@
+
+1. [2018-01-04 17:09:10 UTC]: 
+----------------------------------------------------------------------------------------------------
+pagseguro process_notify POST DATA:<pre>Array
+(
+    [notificationCode] => D74D48-8ED002D00275-6BB471AF9CCB-442A04
+    [notificationType] => transaction
+)
+</pre>
+
+2. [2018-01-04 17:09:10 UTC]: 
+----------------------------------------------------------------------------------------------------
+pagseguro process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_pagseguro
+    [method] => payment_notify
+)
+</pre>
+

@@ -24,3 +24,13 @@ new Publisher_Setup();
 // Fire up Theme
 include $template_directory . 'includes/publisher.php';
 new Publisher();
+
+
+// Before VC Init
+add_action( 'vc_before_init', 'vc_before_init_actions' );
+
+function vc_before_init_actions()
+{
+    // Require new custom Element
+    require_once( get_template_directory().'/vc-custom-elements/custom-modern-grid1.php' );
+}

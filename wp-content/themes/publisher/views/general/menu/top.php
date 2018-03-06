@@ -28,7 +28,10 @@ $menu_class[]           = 'top-menu menu clearfix bsm-pure';
 				?>
 				<li id="topbar-date" class="menu-item menu-item-date">
 					<span
-						class="topbar-date"><?php echo current_time( publisher_translation_get( 'topbar_date_format' ) ); ?></span>
+
+						class="topbar-date"><?php echo date_i18n( publisher_translation_get( 'topbar_date_format' ) ); ?>
+                    </span
+                        >
 				</li>
 				<?php
 			}

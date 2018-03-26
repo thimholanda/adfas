@@ -8,12 +8,12 @@
         {
             $loop_control = 0;
             // Main Banner Query
-            $args = [
+            $args = array(
                 'post_type'         =>  'grid_principal',
                 'posts_per_page'    => 4,
-            ];
+            );
 
-            $result = [];
+            $result = array();
 
             $query = new WP_Query($args);
 
